@@ -1,0 +1,764 @@
+{
+  "chapters": [
+    {
+      "id": 1,
+      "title": "Shuffle Mode",
+      "questions": [
+        {
+          "id": 1,
+          "question": "What is the correct IUPAC name for the molecule CH3NHCH2CH3?",
+          "options": ["A) Ethyl methyl amine", "B) N-methylethanamine", "C) N-ethylmethanamine", "D) Propylamine"],
+          "correctAnswer": "B",
+          "rationale": "The longest chain is 2 carbons (ethane). The methyl group is a substituent on the nitrogen. Distractors: (A) is a common name; (C) uses the shorter chain as parent; (D) is a different molecule."
+        },
+        {
+          "id": 2,
+          "question": "Which of the following conformations of n-butane is the most stable (lowest energy)?",
+          "options": ["A) Fully Eclipsed", "B) Gauche", "C) Eclipsed", "D) Anti"],
+          "correctAnswer": "D",
+          "rationale": "The Anti conformation places the two bulky methyl groups 180 degrees apart, minimizing steric repulsion (Van der Waals strain). Distractors: (A) and (C) involve eclipsing strain. (B) Gauche has methyl groups at 60 degrees, causing steric repulsion."
+        },
+        {
+          "id": 3,
+          "question": "The reduction of a nitrile (R-CN) using LiAlH4 produces:",
+          "options": ["A) A primary amine", "B) A secondary amine", "C) An amide", "D) An aldehyde"],
+          "correctAnswer": "A",
+          "rationale": "LiAlH4 provides four hydride equivalents, reducing the C triple bond completely to a CH2-NH2 group. Distractors: (B) is not the standard product; (C) is the result of partial hydrolysis; (D) is the result of DIBAL-H."
+        },
+        {
+          "id": 4,
+          "question": "What happens to the hybridization of the carbonyl carbon during a nucleophilic attack?",
+          "options": ["A) sp3 -> sp2", "B) sp2 -> sp3", "C) sp -> sp2", "D) It remains sp2"],
+          "correctAnswer": "B",
+          "rationale": "The carbon moves from a planar carbonyl (sp2) to a tetrahedral intermediate (sp3). Distractors: (A), (C), and (D) are incorrect geometric transitions."
+        },
+        {
+          "id": 5,
+          "question": "Which reagent would convert a primary alcohol to an aldehyde without further oxidation to a carboxylic acid?",
+          "options": ["A) KMnO4", "B) H2CrO4 (Jones Reagent)", "C) PCC (Pyridinium Chlorochromate)", "D) LiAlH4"],
+          "correctAnswer": "C",
+          "rationale": "PCC is a mild oxidant used in anhydrous conditions, which prevents the formation of the hydrate necessary for oxidation to a carboxylic acid. Distractors: (A) and (B) are strong oxidants; (D) is a reducing agent."
+        },
+        {
+          "id": 6,
+          "question": "Which conformation of cyclohexane is the most stable?",
+          "options": ["A) Boat", "B) Twist-Boat", "C) Chair", "D) Half-Chair"],
+          "correctAnswer": "C",
+          "rationale": "The Chair conformation minimizes both angle strain (all angles ~109.5) and torsional strain (all bonds are staggered). Distractors: (A), (B), and (D) suffer from eclipsing or angle strain."
+        },
+        {
+          "id": 7,
+          "question": "A salt of a carboxylic acid (e.g., Sodium Acetate) is:",
+          "options": ["A) More acidic than the acid", "B) A very strong acid", "C) The conjugate base of the acid", "D) An electrophile"],
+          "correctAnswer": "C",
+          "rationale": "Salts are formed by neutralizing the acid; the carboxylate part is the conjugate base. Distractors: (A) and (B) are false as the salt is basic; (D) it is primarily a nucleophile."
+        },
+        {
+          "id": 8,
+          "question": "Why are aldehydes generally more reactive toward nucleophiles than ketones?",
+          "options": ["A) They have more alkyl groups", "B) They are more sterically hindered", "C) They have less steric hindrance and are more electrophilic", "D) They are more stable"],
+          "correctAnswer": "C",
+          "rationale": "Aldehydes have only one alkyl group, which means less steric bulk blocking the nucleophile and less electron donation to the carbonyl carbon, making it more positive. Distractors: (A) and (B) describe ketones; (D) reactivity is the opposite of stability."
+        },
+        {
+          "id": 9,
+          "question": "Which of the following is a Polycyclic Aromatic Hydrocarbon (PAH)?",
+          "options": ["A) Benzene", "B) Toluene", "C) Naphthalene", "D) Cyclohexane"],
+          "correctAnswer": "C",
+          "rationale": "Naphthalene consists of two fused benzene rings. Distractors: (A) and (B) are monocyclic; (D) is not aromatic."
+        },
+        {
+          "id": 10,
+          "question": "Which of the following is an example of an aromatic compound?",
+          "options": ["A) Cyclobutadiene", "B) Cyclooctatetraene", "C) Pyridine", "D) Cyclohexene"],
+          "correctAnswer": "C",
+          "rationale": "Pyridine is cyclic, planar, and has 6 pi electrons (n=1), fitting the 4n+2 rule. Distractors: (A) is anti-aromatic (4 pi e-); (B) is non-aromatic (non-planar); (D) is non-aromatic (not fully conjugated)."
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "title": "Shuffle Mode",
+      "questions": [
+        {
+          "id": 1,
+          "question": "What is the role of the 'Sigma Complex' in Electrophilic Aromatic Substitution (EAS)?",
+          "options": ["A) It is the starting material", "B) It is the final product", "C) It is the high-energy carbocation intermediate", "D) It is a catalyst"],
+          "correctAnswer": "C",
+          "rationale": "The sigma complex (arenium ion) is formed when the electrophile attacks, temporarily breaking the aromaticity. Distractors: (A) is the benzene derivative; (B) is the substituted benzene after proton loss; (D) catalysts are the Lewis acids like AlCl3."
+        },
+        {
+          "id": 2,
+          "question": "Which molecule is most likely to be miscible in water?",
+          "options": ["A) 1-Octanol", "B) 1-Butanol", "C) 1-Propanol", "D) 1-Decanol"],
+          "correctAnswer": "C",
+          "rationale": "Solubility decreases as the hydrophobic alkyl chain increases. 1-Propanol has the shortest chain among the choices. Distractors: (A), (B), and (D) have longer chains that overpower the polar -OH group."
+        },
+        {
+          "id": 3,
+          "question": "What is the typical pKa range for a simple carboxylic acid?",
+          "options": ["A) 15–18", "B) 4–5", "C) 25–30", "D) -1 to 0"],
+          "correctAnswer": "B",
+          "rationale": "Carboxylic acids typically range from pKa 4–5. Distractors: (A) is for alcohols; (C) is for alkanes; (D) is for strong mineral acids."
+        },
+        {
+          "id": 4,
+          "question": "Which reagent would you use to synthesize a tertiary alcohol from a ketone?",
+          "options": ["A) NaBH4", "B) LiAlH4", "C) RMgX (Grignard Reagent)", "D) PCC"],
+          "correctAnswer": "C",
+          "rationale": "Grignard reagents add a new alkyl group. Since a ketone already has two, the result is a tertiary alcohol. Distractors: (A) and (B) reduce ketones to secondary alcohols; (D) is an oxidant."
+        },
+        {
+          "id": 5,
+          "question": "The reaction of an alcohol with PCC is an example of:",
+          "options": ["A) Reduction", "B) Substitution", "C) Oxidation", "D) Addition"],
+          "correctAnswer": "C",
+          "rationale": "Oxidation is defined as the gain of C-O bonds or loss of C-H bonds. PCC converts alcohols to carbonyls. Distractors: (A) is the opposite; (B) and (D) do not describe this transformation."
+        },
+        {
+          "id": 6,
+          "question": "What are the primary products of the 'Saponification' of a triglyceride?",
+          "options": ["A) An amide and a ketone", "B) Glycerol and carboxylate salts (soap)", "C) An ester and an alcohol", "D) A nitrile and an amine"],
+          "correctAnswer": "B",
+          "rationale": "Saponification is the base-catalyzed hydrolysis of esters in fats, yielding glycerol and fatty acid salts. Distractors: (A), (C), and (D) are not the products of this specific hydrolysis."
+        },
+        {
+          "id": 7,
+          "question": "The reaction of an alkene with OsO4 followed by NaHSO3 produces:",
+          "options": ["A) An epoxide", "B) A cis-1,2-diol", "C) A trans-1,2-diol", "D) A ketone"],
+          "correctAnswer": "B",
+          "rationale": "OsO4 performs syn-dihydroxylation, adding two hydroxyl groups to the same face. Distractors: (A) requires peracids; (C) requires epoxide opening; (D) is a product of oxidative cleavage."
+        },
+        {
+          "id": 8,
+          "question": "A reduction of an ester using DIBAL-H at low temperature typically yields:",
+          "options": ["A) A primary alcohol", "B) A secondary alcohol", "C) An aldehyde", "D) An alkane"],
+          "correctAnswer": "C",
+          "rationale": "DIBAL-H is a bulky, selective reducer that stops at the aldehyde stage. Distractors: (A) would result from LiAlH4; (B) is not the standard product; (D) is over-reduction."
+        },
+        {
+          "id": 9,
+          "question": "What is the product of the reduction of a ketone using LiAlH4?",
+          "options": ["A) Primary alcohol", "B) Secondary alcohol", "C) Tertiary alcohol", "D) Alkane"],
+          "correctAnswer": "B",
+          "rationale": "Hydride attack on a ketone (which has 2 alkyl groups) results in a secondary alcohol. Distractors: (A) comes from aldehydes; (C) requires Grignards; (D) requires Clemmensen."
+        },
+        {
+          "id": 10,
+          "question": "The inductive effect of an EWG on acidity is most strong when the group is:",
+          "options": ["A) Far from the carboxyl group", "B) Closest to the carboxyl group (C2)", "C) On a different chain", "D) Not present"],
+          "correctAnswer": "B",
+          "rationale": "The inductive effect travels through sigma bonds and diminishes quickly with distance. Distractors: (A) and (C) would result in a much weaker effect."
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "title": "Shuffle Mode",
+      "questions": [
+        {
+          "id": 1,
+          "question": "The reaction of a primary amine with a carboxylic acid under high heat produces:",
+          "options": ["A) An ester", "B) An amide", "C) An imine", "D) A nitrile"],
+          "correctAnswer": "B",
+          "rationale": "Heating a carboxylate salt (formed from acid + amine) drives off water to create a stable amide bond. Distractors: (A) requires alcohol; (C) requires carbonyl; (D) requires dehydration of a primary amide."
+        },
+        {
+          "id": 2,
+          "question": "Which of the following is a characteristic of a 'nucleophile'?",
+          "options": ["A) Electron-deficient", "B) Positive charge or partial positive charge", "C) Electron-rich (lone pair or negative charge)", "D) Loves the nucleus"],
+          "correctAnswer": "C",
+          "rationale": "Nucleophiles are 'nucleus-lovers' and must possess a pair of electrons to donate to an electrophile. Distractors: (A) and (B) describe electrophiles; (D) is a literal translation, not a chemical property."
+        },
+        {
+          "id": 3,
+          "question": "Ozonolysis of 2-butene followed by a reductive workup (Zn/H2O) yields:",
+          "options": ["A) One molecule of butanal", "B) Two molecules of ethanal (acetaldehyde)", "C) One molecule of butanone", "D) A cyclic ozonide"],
+          "correctAnswer": "B",
+          "rationale": "Ozonolysis cleaves the C=C bond; 2-butene splits into two identical 2-carbon fragments. Distractors: (A) and (C) are wrong chain lengths; (D) is an intermediate."
+        },
+        {
+          "id": 4,
+          "question": "Which reagent is used for 'Anti-dihydroxylation' of an alkene?",
+          "options": ["A) OsO4", "B) KMnO4 (cold)", "C) mCPBA followed by H3O+", "D) O3"],
+          "correctAnswer": "C",
+          "rationale": "mCPBA forms an epoxide, and the subsequent acid-catalyzed opening occurs from the opposite face. Distractors: (A) and (B) are syn-additions; (D) is cleavage."
+        },
+        {
+          "id": 5,
+          "question": "Which of the following is the strongest oxidizing agent?",
+          "options": ["A) PCC", "B) KMnO4", "C) NaBH4", "D) H2"],
+          "correctAnswer": "B",
+          "rationale": "KMnO4 is a powerful oxidant that drives primary alcohols to carboxylic acids. Distractors: (A) is a mild oxidant; (C) and (D) are reducing agents."
+        },
+        {
+          "id": 6,
+          "question": "Which of these acids is the STRONGEST?",
+          "options": ["A) CH3COOH (Acetic acid)", "B) FCH2COOH (Fluoroacetic acid)", "C) CF3COOH (Trifluoroacetic acid)", "D) C5H11COOH (Pentanoic acid)"],
+          "correctAnswer": "C",
+          "rationale": "Acidity increases with the number of electronegative atoms. Three fluorines exert the strongest inductive effect. Distractors: (A), (B), and (D) have fewer or no EWGs."
+        },
+        {
+          "id": 7,
+          "question": "In radical halogenation, which halogen is the most selective?",
+          "options": ["A) Fluorine", "B) Chlorine", "C) Bromine", "D) Iodine"],
+          "correctAnswer": "C",
+          "rationale": "Bromine is less reactive than Chlorine, making it more selective for the most stable radical (Tertiary). Distractors: (A) is unselective. (B) is moderately selective. (D) is too unreactive."
+        },
+        {
+          "id": 8,
+          "question": "Which of the following is the most reactive carboxylic acid derivative toward nucleophilic attack?",
+          "options": ["A) Ester", "B) Amide", "C) Acid Anhydride", "D) Acid Chloride"],
+          "correctAnswer": "D",
+          "rationale": "Acid chlorides have the best leaving group (Cl-), which is a very weak base, making them the most electrophilic. Distractors: (A), (B), and (C) have poorer leaving groups (alkoxides, amides, carboxylates)."
+        },
+        {
+          "id": 9,
+          "question": "Which of the following is the correct IUPAC priority for numbering?",
+          "options": ["A) Alcohols > Carboxylic Acids", "B) Carboxylic Acids > Ketones", "C) Alkenes > Carboxylic Acids", "D) Ethers > Carboxylic Acids"],
+          "correctAnswer": "B",
+          "rationale": "The carboxyl group (-COOH) has the highest priority of all common functional groups. Distractors: (A), (C), and (D) incorrectly place other groups above the acid."
+        },
+        {
+          "id": 10,
+          "question": "Which of the following alkanes would have the lowest boiling point?",
+          "options": ["A) n-Pentane", "B) Isopentane", "C) Neopentane", "D) n-Hexane"],
+          "correctAnswer": "C",
+          "rationale": "Neopentane is the most branched. Branching makes the molecule more spherical, reducing the surface area available for London Dispersion Forces. Distractors: (A) and (B) are less branched. (D) has a higher molecular weight, increasing BP."
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "title": "Shuffle Mode",
+      "questions": [
+        {
+          "id": 1,
+          "question": "The reaction of a primary amine with a ketone produces which compound?",
+          "options": ["A) Enamine", "B) Imine (Schiff Base)", "C) Amide", "D) Nitrile"],
+          "correctAnswer": "B",
+          "rationale": "Primary amines (R-NH2) react with carbonyls to form imines (C=N) via a condensation reaction. Distractors: (A) requires a secondary amine; (C) requires an acid chloride; (D) is a different functional group."
+        },
+        {
+          "id": 2,
+          "question": "Which of the following is a reducing agent?",
+          "options": ["A) CrO3", "B) PDC", "C) LiAlH4", "D) K2Cr2O7"],
+          "correctAnswer": "C",
+          "rationale": "LiAlH4 provides hydride ions (H-), facilitating reduction. Distractors: (A), (B), and (D) are all chromium-based oxidants."
+        },
+        {
+          "id": 3,
+          "question": "Reductive Amination of a ketone typically requires which combination of reagents?",
+          "options": ["A) KMnO4 and HCl", "B) PCC and NaBH4", "C) NaBH3CN and a primary amine", "D) SOCl2 and a primary amine"],
+          "correctAnswer": "C",
+          "rationale": "The amine reacts with the ketone to form an imine, and NaBH3CN selectively reduces the imine without affecting the remaining carbonyls. Distractors: (A) is oxidation; (B) PCC is an oxidant; (D) forms amides."
+        },
+        {
+          "id": 4,
+          "question": "Which condition is NOT required for aromaticity?",
+          "options": ["A) Cyclic structure", "B) Planar geometry", "C) Full conjugation", "D) Presence of a halogen substituent"],
+          "correctAnswer": "D",
+          "rationale": "Halogens are substituents, not requirements for the aromatic system. Distractors: (A), (B), and (C) are mandatory requirements."
+        },
+        {
+          "id": 5,
+          "question": "Which of the following is the correct IUPAC name for CH3CH(OH)CH2CH3?",
+          "options": ["A) Butan-1-ol", "B) Butan-2-ol", "C) 2-butanol", "D) Isobutanol"],
+          "correctAnswer": "B",
+          "rationale": "Longest chain is 4 (butan) and the -OH group is located on carbon 2. Distractors: (A) is the primary isomer; (C) is common name style; (D) is a different isomer."
+        },
+        {
+          "id": 6,
+          "question": "Which of the following reagents is the most selective for reducing an aldehyde in the presence of an ester?",
+          "options": ["A) LiAlH4", "B) NaBH4", "C) KMnO4", "D) H2/Pd"],
+          "correctAnswer": "B",
+          "rationale": "NaBH4 is a mild reducing agent that reacts with aldehydes and ketones but is too weak to reduce esters. Distractors: (A) reduces both aldehydes and esters; (C) is an oxidant; (D) typically reduces alkenes/alkynes."
+        },
+        {
+          "id": 7,
+          "question": "Which reagent would you use to convert a ketone to an alcohol without affecting an ester group in the same molecule?",
+          "options": ["A) LiAlH4", "B) NaBH4", "C) PCC", "D) KMnO4"],
+          "correctAnswer": "B",
+          "rationale": "NaBH4 is chemoselective for ketones and aldehydes, leaving esters untouched. Distractors: (A) reduces both; (C) and (D) are oxidants."
+        },
+        {
+          "id": 8,
+          "question": "Which synthesis method is specifically designed to produce pure primary amines and avoid over-alkylation?",
+          "options": ["A) Reaction of NH3 with alkyl halides", "B) Reductive Amination", "C) Gabriel Synthesis", "D) Reduction of Nitriles"],
+          "correctAnswer": "C",
+          "rationale": "The Gabriel synthesis uses potassium phthalimide to ensure only one alkyl group is added, followed by hydrolysis. Distractors: (A) leads to a mixture of 1, 2, and 3 degrees; (B) and (D) are useful but not specifically designed to prevent over-alkylation."
+        },
+        {
+          "id": 9,
+          "question": "Organolithium reagents (RLi) are similar to Grignard reagents because they both:",
+          "options": ["A) Are weak bases", "B) Act as nucleophilic sources of carbon", "C) Are stable in water", "D) Only react with carboxylic acids"],
+          "correctAnswer": "B",
+          "rationale": "Both RLi and RMgX create a carbanion-like species that attacks electrophiles to build carbon skeletons. Distractors: (A) and (C) are false (they are strong bases and water-reactive); (D) is false."
+        },
+        {
+          "id": 10,
+          "question": "A substituent that donates electron density into the ring is called:",
+          "options": ["A) Deactivating", "B) Activating", "C) Meta-directing", "D) Halogenating"],
+          "correctAnswer": "B",
+          "rationale": "Activating groups (EDGs) increase electron density, making the ring more nucleophilic. Distractors: (A) and (C) describe electron-withdrawing groups; (D) is a type of reaction."
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "title": "Shuffle Mode",
+      "questions": [
+        {
+          "id": 1,
+          "question": "Why is Aniline (C6H5NH2) significantly less basic than Methylamine (CH3NH2)?",
+          "options": ["A) It is more sterically hindered", "B) The nitrogen lone pair is delocalized into the benzene ring", "C) The benzene ring is electron-donating", "D) Aniline is a gas at room temperature"],
+          "correctAnswer": "B",
+          "rationale": "In aniline, the lone pair on Nitrogen is part of the aromatic pi system (resonance), making it less available to bond with H+. Distractors: (A) steric hindrance is minimal here; (C) the ring is electron-withdrawing via resonance; (D) aniline is a liquid."
+        },
+        {
+          "id": 2,
+          "question": "The conversion of a primary alcohol to a carboxylic acid requires:",
+          "options": ["A) NaBH4", "B) LiAlH4", "C) Jones Reagent (CrO3/H2SO4)", "D) PCC"],
+          "correctAnswer": "C",
+          "rationale": "A strong oxidant in aqueous media is needed for full oxidation. Distractors: (A) and (B) reduce; (D) stops at the aldehyde."
+        },
+        {
+          "id": 3,
+          "question": "Which of the following is the most acidic?",
+          "options": ["A) Ethanol", "B) Isopropanol", "C) tert-Butanol", "D) Phenol"],
+          "correctAnswer": "D",
+          "rationale": "Phenol is more acidic because the resulting phenoxide ion is resonance-stabilized by the benzene ring. Distractors: (A), (B), and (C) are aliphatic alcohols whose alkoxide ions are not resonance-stabilized."
+        },
+        {
+          "id": 4,
+          "question": "To introduce a straight-chain alkyl group without rearrangement, one should use:",
+          "options": ["A) Friedel-Crafts Alkylation", "B) Friedel-Crafts Acylation followed by reduction", "C) Nitration", "D) Halogenation"],
+          "correctAnswer": "B",
+          "rationale": "Acylation creates an acylium ion (R-C+=O) which is resonance-stabilized and does not rearrange. Distractors: (A) leads to rearrangements; (C) and (D) add different functional groups."
+        },
+        {
+          "id": 5,
+          "question": "Which of the following groups is both deactivating AND ortho/para directing?",
+          "options": ["A) -OH", "B) -NO2", "C) -Cl", "D) -CH3"],
+          "correctAnswer": "C",
+          "rationale": "Halogens are electronegative (deactivating) but have lone pairs that stabilize the sigma complex via resonance (o/p directing). Distractors: (A) and (D) are activating; (B) is deactivating and meta-directing."
+        },
+        {
+          "id": 6,
+          "question": "Which of the following is the most stable leaving group (and thus the best leaving group)?",
+          "options": ["A) NH2-", "B) RO-", "C) Cl-", "D) OH-"],
+          "correctAnswer": "C",
+          "rationale": "Good leaving groups are weak bases. Cl- is the conjugate base of a strong acid (HCl), making it the weakest base here. Distractors: (A), (B), and (D) are strong bases and poor leaving groups."
+        },
+        {
+          "id": 7,
+          "question": "The formation of a peptide bond in proteins is a specific example of:",
+          "options": ["A) Nucleophilic Addition", "B) Nucleophilic Acyl Substitution", "C) Free Radical Substitution", "D) Electrophilic Addition"],
+          "correctAnswer": "B",
+          "rationale": "A peptide bond is an amide bond formed by the attack of an amine on a carboxylic acid derivative (or activated acid), ejecting a leaving group. Distractors: (A) does not eject a group; (C) and (D) are entirely different mechanisms."
+        },
+        {
+          "id": 8,
+          "question": "A nucleophilic attack on a carbonyl carbon changes the hybridization of that carbon from:",
+          "options": ["A) sp to sp2", "B) sp2 to sp3", "C) sp3 to sp2", "D) sp2 to sp"],
+          "correctAnswer": "B",
+          "rationale": "The carbonyl carbon starts as planar (sp2). Upon attack by a nucleophile, it becomes a tetrahedral alkoxide (sp3). Distractors: (A), (C), and (D) are incorrect geometric transitions."
+        },
+        {
+          "id": 9,
+          "question": "Friedel-Crafts Alkylation is often problematic because of:",
+          "options": ["A) Over-oxidation", "B) Carbocation rearrangements", "C) Lack of electrophiles", "D) The stability of the product"],
+          "correctAnswer": "B",
+          "rationale": "The electrophile is a carbocation, which can undergo 1,2-hydride or methyl shifts to reach a more stable tertiary position. Distractors: (A) is not a feature of this reaction; (C) is false; (D) the product is stable, but the path to it is unpredictable."
+        },
+        {
+          "id": 10,
+          "question": "Resonance in benzene implies that:",
+          "options": ["A) The double bonds switch positions rapidly", "B) All C-C bonds are of equal length", "C) The molecule is not planar", "D) The carbons are sp3 hybridized"],
+          "correctAnswer": "B",
+          "rationale": "Delocalization means benzene does not have distinct single and double bonds, but a hybrid bond order of 1.5. Distractors: (A) is a common misconception; (C) and (D) are false."
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "title": "Shuffle Mode",
+      "questions": [
+        {
+          "id": 1,
+          "question": "In EAS, the la place of the proton (H+) is that it is:",
+          "options": ["A) The electrophile", "B) The leaving group", "C) The catalyst", "D) The nucleophile"],
+          "correctAnswer": "B",
+          "rationale": "The proton is ejected from the sigma complex in the second step to restore aromaticity. Distractors: (A) is the E+; (C) is the Lewis acid; (D) is the benzene ring."
+        },
+        {
+          "id": 2,
+          "question": "The reaction of an acid chloride with an alcohol produces which of the following?",
+          "options": ["A) An amide", "B) An ester", "C) A ketone", "D) An anhydride"],
+          "correctAnswer": "B",
+          "rationale": "Reaction of R-COCl with R'OH results in R-COOR' and HCl. Distractors: (A) requires an amine; (C) requires a Grignard/reducer; (D) requires a carboxylate salt."
+        },
+        {
+          "id": 3,
+          "question": "In the free-radical chlorination of isobutane, what is the major product?",
+          "options": ["A) 1-chloro-2-methylpropane", "B) 2-chloro-2-methylpropane", "C) 1-chloro-propane", "D) 2-chloro-butane"],
+          "correctAnswer": "B",
+          "rationale": "Stability of radicals: 3° > 2° > 1° > Methyl. The tertiary radical at C2 is the most stable, leading to the tertiary halide. Distractors: (A) is the primary product. (C) and (D) are not isomers of isobutane."
+        },
+        {
+          "id": 4,
+          "question": "Why do alcohols have significantly higher boiling points than ethers of similar molecular weight?",
+          "options": ["A) Ethers have stronger dipole-dipole forces", "B) Alcohols can form intermolecular hydrogen bonds", "C) Alcohols are more branched", "D) Ethers are more polar"],
+          "correctAnswer": "B",
+          "rationale": "Alcohols have an O-H bond, allowing them to be both H-bond donors and acceptors. Distractors: (A) and (D) are incorrect as alcohols are more polar; (C) branching typically lowers boiling points."
+        },
+        {
+          "id": 5,
+          "question": "What is the catalyst typically used in Friedel-Crafts reactions?",
+          "options": ["A) KMnO4", "B) AlCl3", "C) NaBH4", "D) PCC"],
+          "correctAnswer": "B",
+          "rationale": "AlCl3 is a strong Lewis acid that generates the carbocation electrophile. Distractors: (A) is an oxidant; (C) is a reducer; (D) is an oxidant."
+        },
+        {
+          "id": 6,
+          "question": "Imines are essential intermediates in the Maillard reaction, which is responsible for:",
+          "options": ["A) The soap making process", "B) The browning of food during cooking", "C) The hydrogenation of oils", "D) The formation of esters"],
+          "correctAnswer": "B",
+          "rationale": "The Maillard reaction occurs between reducing sugars (carbonyls) and amino acids (amines), forming imines. Distractors: (A) is saponification; (C) is hydrogenation; (D) is esterification."
+        },
+        {
+          "id": 7,
+          "question": "What is the defining difference between Nucleophilic Addition (Chapter 21) and Nucleophilic Acyl Substitution (Chapter 22)?",
+          "options": ["A) NAS doesn't use a nucleophile", "B) NAS involves the ejection of a leaving group", "C) Addition is faster than substitution", "D) Substitution only happens in alcohols"],
+          "correctAnswer": "B",
+          "rationale": "In Nucleophilic Acyl Substitution, the nucleophile attacks the carbonyl, but a leaving group is subsequently ejected to restore the C=O bond. Distractors: (A) both use nucleophiles; (C) speed depends on the leaving group; (D) occurs in carboxylic acid derivatives."
+        },
+        {
+          "id": 8,
+          "question": "Which of the following is the strongest electrophile for the nitration of benzene?",
+          "options": ["A) HNO3", "B) H2SO4", "C) NO2+ (Nitronium ion)", "D) NO3-"],
+          "correctAnswer": "C",
+          "rationale": "The nitronium ion (NO2+) is the active electrophile that attacks the ring. Distractors: (A) is the acid source; (B) is the catalyst used to generate NO2+; (D) is a nucleophile."
+        },
+        {
+          "id": 9,
+          "question": "Which reagent is a 'mild' reducer used specifically for aldehydes and ketones?",
+          "options": ["A) LiAlH4", "B) NaBH4", "C) KMnO4", "D) CrO3"],
+          "correctAnswer": "B",
+          "rationale": "NaBH4 is used to selectively reduce carbonyls while leaving esters or acids untouched. Distractors: (A) is too strong; (C) and (D) are oxidants."
+        },
+        {
+          "id": 10,
+          "question": "Which reagent is specifically used to convert a carboxylic acid into an acid chloride?",
+          "options": ["A) NaBH4", "B) SOCl2 (Thionyl Chloride)", "C) LiAlH4", "D) KMnO4"],
+          "correctAnswer": "B",
+          "rationale": "SOCl2 replaces the -OH of the acid with -Cl, with SO2 and HCl leaving as gases. Distractors: (A) and (C) are reducing agents; (D) is an oxidant."
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "title": "Shuffle Mode",
+      "questions": [
+        {
+          "id": 1,
+          "question": "The reaction of an aldehyde with NaBH4 produces:",
+          "options": ["A) A secondary alcohol", "B) A primary alcohol", "C) A ketone", "D) A carboxylic acid"],
+          "correctAnswer": "B",
+          "rationale": "NaBH4 adds a hydride to the carbonyl carbon of an aldehyde, which only has one R group, resulting in a primary alcohol. Distractors: (A) comes from ketones; (C) and (D) are oxidation products."
+        },
+        {
+          "id": 2,
+          "question": "Why are carboxylic acids significantly more acidic than alcohols?",
+          "options": ["A) They have a higher molecular weight", "B) The carboxylate ion is resonance-stabilized", "C) The O-H bond is stronger in acids", "D) They are more soluble in water"],
+          "correctAnswer": "B",
+          "rationale": "The negative charge in a carboxylate ion is delocalized over two electronegative oxygen atoms, lowering the energy of the conjugate base. Distractors: (A) MolWt doesn't dictate acidity; (C) the O-H bond is actually weaker, allowing proton loss; (D) solubility is a consequence, not a cause."
+        },
+        {
+          "id": 3,
+          "question": "In biochemistry, a peptide bond is chemically classified as:",
+          "options": ["A) An ester", "B) An ether", "C) An amide", "D) An imine"],
+          "correctAnswer": "C",
+          "rationale": "Peptide bonds are amide linkages formed between the carboxyl group of one amino acid and the amine of another. Distractors: (A), (B), and (D) are different functional groups."
+        },
+        {
+          "id": 4,
+          "question": "Which of the following amines is the most basic?",
+          "options": ["A) Ammonia (NH3)", "B) Methylamine (CH3NH2)", "C) Dimethylamine (HN(CH3)2)", "D) Aniline (C6H5NH2)"],
+          "correctAnswer": "C",
+          "rationale": "Alkyl groups are electron-donating via the inductive effect, increasing electron density on the N. Dimethylamine has two such groups. Distractors: (A) has no alkyl groups; (B) has only one; (D) is aromatic and least basic."
+        },
+        {
+          "id": 5,
+          "question": "In a cyclohexane ring, a substituent is most stable in which position?",
+          "options": ["A) Axial", "B) Equatorial", "C) Eclipsed", "D) Bridgehead"],
+          "correctAnswer": "B",
+          "rationale": "Equatorial positions point away from the ring, avoiding 1,3-diaxial interactions. Distractors: (A) Axial positions cause steric strain. (C) and (D) are not positional terms for substituent stability."
+        },
+        {
+          "id": 6,
+          "question": "In the context of redox, the loss of C-H bonds and gain of C-O bonds is defined as:",
+          "options": ["A) Reduction", "B) Oxidation", "C) Hydrogenation", "D) Substitution"],
+          "correctAnswer": "B",
+          "rationale": "Oxidation is the gain of electronegative atoms or loss of hydrogen. Distractors: (A) is the opposite; (C) is a type of reduction; (D) does not change oxidation state."
+        },
+        {
+          "id": 7,
+          "question": "A Grignard reagent (RMgX) reacts with a ketone to produce which type of alcohol?",
+          "options": ["A) Primary (1°)", "B) Secondary (2°)", "C) Tertiary (3°)", "D) Phenol"],
+          "correctAnswer": "C",
+          "rationale": "Ketones have two alkyl groups. Adding a third via the Grignard reagent creates a carbon bonded to three other carbons. Distractors: (A) comes from formaldehyde; (B) comes from aldehydes."
+        },
+        {
+          "id": 8,
+          "question": "Which of the following is the correct sequence for the formation of a cyanohydrin?",
+          "options": ["A) Addition of KCN -> Protonation", "B) Protonation -> Addition of KCN", "C) Oxidation -> Reduction", "D) Dehydration -> Hydration"],
+          "correctAnswer": "A",
+          "rationale": "The cyanide ion (CN-) acts as a nucleophile and attacks the carbonyl carbon first, followed by protonation of the oxygen. Distractors: (B) is a different mechanism; (C) and (D) are not the pathway for cyanohydrins."
+        },
+        {
+          "id": 9,
+          "question": "Which of the following is a property of carboxylic acids?",
+          "options": ["A) They are completely non-polar", "B) They cannot form hydrogen bonds", "C) They have higher boiling points than alcohols of similar mass", "D) They are always gases at room temperature"],
+          "correctAnswer": "C",
+          "rationale": "Their ability to form stable dimers via two H-bonds leads to higher boiling points than alcohols. Distractors: (A) and (B) are false; (D) is false as most are liquids or solids."
+        },
+        {
+          "id": 10,
+          "question": "What is the role of a 'lone pair' in aromaticity?",
+          "options": ["A) It can never contribute to the pi system", "B) It can contribute if the atom is sp2 hybridized and the pair is in a p-orbital", "C) It always makes a molecule anti-aromatic", "D) It prevents the molecule from being planar"],
+          "correctAnswer": "B",
+          "rationale": "Lone pairs on heteroatoms (like N in pyrrole) count toward the 4n+2 count if they are in a p-orbital. Distractors: (A) is false; (C) and (D) are not general rules."
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "title": "Shuffle Mode",
+      "questions": [
+        {
+          "id": 1,
+          "question": "Which of the following is a property of alkanes?",
+          "options": ["A) High water solubility", "B) Strong dipole-dipole interactions", "C) Hydrophobic nature", "D) Ability to form hydrogen bonds"],
+          "correctAnswer": "C",
+          "rationale": "Alkanes are non-polar; they do not interact with water. Distractors: (A), (B), and (D) require polarity or H-bond donors/acceptors."
+        },
+        {
+          "id": 2,
+          "question": "A 'Williamson Ether Synthesis' involves which of the following?",
+          "options": ["A) Dehydration of two alcohols", "B) Reaction of an alkoxide with an alkyl halide (SN2)", "C) Reaction of two carboxylic acids", "D) Hydrogenation of an epoxide"],
+          "correctAnswer": "B",
+          "rationale": "The SN2 attack of an alkoxide on a primary alkyl halide is the standard way to create asymmetric ethers. Distractors: (A) is a less selective method; (C) forms esters; (D) forms alcohols."
+        },
+        {
+          "id": 3,
+          "question": "What is the effect of a strong acid on an epoxide?",
+          "options": ["A) It makes the ring more stable", "B) It directs the nucleophile to attack the less substituted carbon", "C) It directs the nucleophile to attack the more substituted carbon", "D) It causes the epoxide to evaporate"],
+          "correctAnswer": "C",
+          "rationale": "In acid, the oxygen is protonated. The more substituted carbon becomes more electrophilic (stabilizing the partial positive charge), directing the attack there. Distractors: (B) describes base-catalyzed ring opening."
+        },
+        {
+          "id": 4,
+          "question": "What is the primary risk of using a Grignard reagent in a laboratory setting?",
+          "options": ["A) It is too slow to react", "B) It reacts violently with water/moisture", "C) It only works at -100 degrees C", "D) It cannot form C-C bonds"],
+          "correctAnswer": "B",
+          "rationale": "Grignards are extremely strong bases; they react instantly with any acidic proton (like water) to form an alkane, quenching the reagent. Distractors: (A) they are very fast; (C) they are used at room temp or below; (D) C-C bond formation is their primary use."
+        },
+        {
+          "id": 5,
+          "question": "What is the primary purpose of forming an 'acetal' from a ketone in a multi-step synthesis?",
+          "options": ["A) To increase the reactivity of the carbonyl", "B) To protect the carbonyl group from nucleophilic attack", "C) To increase the boiling point of the molecule", "D) To convert the ketone into a carboxylic acid"],
+          "correctAnswer": "B",
+          "rationale": "Acetals are stable to bases and nucleophiles, allowing chemists to perform reactions elsewhere on the molecule without interfering with the carbonyl. Distractors: (A) Acetals are less reactive; (C) is a physical byproduct, not the purpose; (D) is a different reaction."
+        },
+        {
+          "id": 6,
+          "question": "A molecule that is cyclic, planar, and fully conjugated but has 4n pi electrons is called:",
+          "options": ["A) Aromatic", "B) Non-aromatic", "C) Anti-aromatic", "D) Saturated"],
+          "correctAnswer": "C",
+          "rationale": "This is the definition of anti-aromaticity, which leads to extreme instability. Distractors: (A) is 4n+2; (B) lacks one of the conditions (like planarity); (D) means no double bonds."
+        },
+        {
+          "id": 7,
+          "question": "What is the general formula for a cycloalkane?",
+          "options": ["A) CnH2n+2", "B) CnH2n", "C) CnH2n-2", "D) CnHn"],
+          "correctAnswer": "B",
+          "rationale": "Closing the ring removes two hydrogen atoms compared to an acyclic alkane. Distractors: (A) is for alkanes. (C) is for alkynes."
+        },
+        {
+          "id": 8,
+          "question": "A tertiary amine (R3N) reacts with an acid chloride (R'COCl) to form:",
+          "options": ["A) A stable amide", "B) A quaternary acylammonium salt", "C) An imine", "D) A nitrile"],
+          "correctAnswer": "B",
+          "rationale": "Tertiary amines lack a proton on N to lose during the final step of amide formation, resulting in a charged salt. Distractors: (A) requires 1 or 2 degree amines; (C) and (D) are different functional groups."
+        },
+        {
+          "id": 9,
+          "question": "Which group would make the benzene ring MOST reactive toward EAS?",
+          "options": ["A) -NO2", "B) -F", "C) -OCH3", "D) -COOH"],
+          "correctAnswer": "C",
+          "rationale": "The methoxy group is a strong electron donor via resonance, significantly activating the ring. Distractors: (A), (B), and (D) are all deactivating groups."
+        },
+        {
+          "id": 10,
+          "question": "Carboxylic acids can form 'dimers' in the gas phase. This is due to:",
+          "options": ["A) Ionic bonding", "B) Two hydrogen bonds between two molecules", "C) Covalent bonding", "D) Van der Waals forces only"],
+          "correctAnswer": "B",
+          "rationale": "Each molecule has a C=O acceptor and an O-H donor, allowing a cyclic two-hydrogen-bond arrangement. Distractors: (A) and (C) are not intermolecular forces; (D) is too weak to explain the dimer structure."
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "title": "Shuffle Mode",
+      "questions": [
+        {
+          "id": 1,
+          "question": "How does steric hindrance affect the reactivity of aldehydes vs ketones?",
+          "options": ["A) It makes ketones more reactive", "B) It slows down the attack on ketones", "C) It increases the boiling point of aldehydes", "D) It has no effect on reactivity"],
+          "correctAnswer": "B",
+          "rationale": "Bulky groups on ketones block the path of the nucleophile, whereas aldehydes are more accessible. Distractors: (A) is false; (C) is a physical property; (D) is incorrect."
+        },
+        {
+          "id": 2,
+          "question": "Which of the following substituents will INCREASE the acidity of a carboxylic acid?",
+          "options": ["A) A methyl group (-CH3)", "B) An ethyl group (-CH2CH3)", "C) A chlorine atom (-Cl)", "D) A tert-butyl group (-C(CH3)3)"],
+          "correctAnswer": "C",
+          "rationale": "Chlorine is an electron-withdrawing group (EWG) that stabilizes the conjugate base via the inductive effect. Distractors: (A), (B), and (D) are alkyl groups, which are electron-donating and decrease acidity."
+        },
+        {
+          "id": 3,
+          "question": "Which reagent is used in 'reductive amination' to selectively reduce an imine to a secondary amine?",
+          "options": ["A) PCC", "B) NaBH3CN (Sodium cyanoborohydride)", "C) KMnO4", "D) SOCl2"],
+          "correctAnswer": "B",
+          "rationale": "NaBH3CN is selective; it reduces the imine but is too mild to reduce the original carbonyl. Distractors: (A) and (C) are oxidants; (D) is for halogenation."
+        },
+        {
+          "id": 4,
+          "question": "According to Hückel's Rule, a molecule is aromatic if it is cyclic, planar, fully conjugated, and has how many pi electrons?",
+          "options": ["A) 4n", "B) 4n+2", "C) 2n+2", "D) n+2"],
+          "correctAnswer": "B",
+          "rationale": "The (4n+2) rule is the requirement for aromatic stability. Distractors: (A) describes anti-aromaticity; (C) and (D) are not valid rules for aromaticity."
+        },
+        {
+          "id": 5,
+          "question": "Which reaction is the best method for converting an alcohol to an alkyl bromide with inversion of configuration?",
+          "options": ["A) HBr", "B) PBr3", "C) SOCl2", "D) TsCl"],
+          "correctAnswer": "B",
+          "rationale": "PBr3 converts the -OH to a good leaving group and facilitates an SN2 attack by Br-, resulting in stereochemical inversion. Distractors: (A) can lead to rearrangements; (C) produces chlorides; (D) produces tosylates."
+        },
+        {
+          "id": 6,
+          "question": "What is the correct order of reactivity for carboxylic acid derivatives, from most to least reactive?",
+          "options": ["A) Amide > Ester > Acid Chloride", "B) Acid Chloride > Acid Anhydride > Ester > Amide", "C) Ester > Amide > Acid Chloride", "D) Acid Anhydride > Acid Chloride > Amide > Ester"],
+          "correctAnswer": "B",
+          "rationale": "Reactivity depends on the leaving group ability: Cl- > RCOO- > RO- > NH2-. Distractors: (A), (C), and (D) violate this stability hierarchy."
+        },
+        {
+          "id": 7,
+          "question": "Which of the following is a standard 'protecting group' for an aldehyde?",
+          "options": ["A) An ester", "B) A cyclic acetal (using ethylene glycol)", "C) An imine", "D) A carboxylic acid"],
+          "correctAnswer": "B",
+          "rationale": "Cyclic acetals are highly stable and commonly used to protect aldehydes from strong bases or reducers. Distractors: (A), (C), and (D) are not standard protecting groups."
+        },
+        {
+          "id": 8,
+          "question": "Which of the following is the correct term for the overlap of p-orbitals in an aromatic ring?",
+          "options": ["A) Sigma-overlap", "B) Conjugation", "C) Hybridization", "D) Isomerization"],
+          "correctAnswer": "B",
+          "rationale": "Conjugation is the overlap of p-orbitals across adjacent atoms, allowing electron movement. Distractors: (A) refers to single bonds; (C) is the mixing of orbitals (e.g., sp2); (D) is the rearrangement of atoms."
+        },
+        {
+          "id": 9,
+          "question": "Which of the following is the correct term for the energy difference between the staggered and eclipsed conformations of ethane?",
+          "options": ["A) Steric Strain", "B) Angle Strain", "C) Torsional Strain", "D) Ring Strain"],
+          "correctAnswer": "C",
+          "rationale": "Torsional strain is specifically the resistance to twisting around a single bond caused by eclipsing electrons. Distractors: (A) is bulk-on-bulk. (B) is angle deviation."
+        },
+        {
+          "id": 10,
+          "question": "Why is benzene more stable than a typical alkene?",
+          "options": ["A) It has only sigma bonds", "B) Due to resonance energy (delocalization of pi electrons)", "C) Because it is a saturated hydrocarbon", "D) Because it lacks a ring structure"],
+          "correctAnswer": "B",
+          "rationale": "Delocalization of the 6 pi electrons across the ring creates resonance energy, making it significantly more stable. Distractors: (A) is false; (C) describes alkanes; (D) is factually incorrect."
+        }
+      ]
+    },
+    {
+      "id": 10,
+      "title": "Shuffle Mode",
+      "questions": [
+        {
+          "id": 1,
+          "question": "Why are amides the least reactive of the carboxylic acid derivatives?",
+          "options": ["A) They lack a carbonyl group", "B) Resonance stabilization from the nitrogen lone pair", "C) They are too small to be attacked", "D) They are exclusively solids"],
+          "correctAnswer": "B",
+          "rationale": "The Nitrogen lone pair is strongly donated into the carbonyl, reducing the partial positive charge on the carbon. Distractors: (A) is false; (C) and (D) do not affect the inherent reactivity of the C=O bond."
+        },
+        {
+          "id": 2,
+          "question": "What is the product when a secondary amine reacts with a ketone?",
+          "options": ["A) Imine", "B) Enamine", "C) Amide", "D) Nitrile"],
+          "correctAnswer": "B",
+          "rationale": "Secondary amines lack the second proton to form a C=N bond, so they form enamines (amine with adjacent alkene). Distractors: (A) is for primary amines; (C) and (D) are unrelated reactions."
+        },
+        {
+          "id": 3,
+          "question": "Which of the following is the most powerful reducing agent?",
+          "options": ["A) NaBH4", "B) LiAlH4", "C) H2/Pd", "D) NaBH3CN"],
+          "correctAnswer": "B",
+          "rationale": "LiAlH4 is far more reactive than NaBH4 and can reduce esters and carboxylic acids, not just aldehydes and ketones. Distractors: (A), (C), and (D) are milder or more selective."
+        },
+        {
+          "id": 4,
+          "question": "To 'deprotect' an acetal and recover the original carbonyl compound, what conditions are required?",
+          "options": ["A) Strong base (NaOH)", "B) Aqueous acid (H3O+)", "C) Lithium Aluminum Hydride (LiAlH4)", "D) Pyridinium Chlorochromate (PCC)"],
+          "correctAnswer": "B",
+          "rationale": "Acetals are acid-labile; adding aqueous acid hydrolyzes them back to the carbonyl. Distractors: (A) Acetals are stable in base; (C) would reduce the carbonyl; (D) is an oxidant."
+        },
+        {
+          "id": 5,
+          "question": "Which molecule would be the most soluble in water?",
+          "options": ["A) Ethanoic acid", "B) Butanoic acid", "C) Hexanoic acid", "D) Decanoic acid"],
+          "correctAnswer": "A",
+          "rationale": "Solubility decreases as the hydrophobic alkyl chain increases. Ethanoic acid has the smallest chain. Distractors: (B), (C), and (D) have longer chains that hinder water solubility."
+        },
+        {
+          "id": 6,
+          "question": "Which of the following is a strongly deactivating, meta-directing group?",
+          "options": ["A) -OCH3", "B) -NH2", "C) -NO2", "D) -C(CH3)3"],
+          "correctAnswer": "C",
+          "rationale": "The nitro group is strongly electron-withdrawing, reducing ring reactivity and directing the electrophile to the meta position. Distractors: (A), (B), and (D) are activating/o-p directing."
+        },
+        {
+          "id": 7,
+          "question": "What is the IUPAC name for a chain of 5 carbons with methyl groups at C2 and C3?",
+          "options": ["A) 2,3-dimethylpentane", "B) 2,3-dimethylbutane", "C) 3,4-dimethylpentane", "D) 2,3-dimethylhexane"],
+          "correctAnswer": "A",
+          "rationale": "Longest chain is 5 (pentane). Substituents at 2 and 3 are the lowest possible numbers. Distractors: (B) is 4-carbon. (C) uses higher numbering. (D) is 6-carbon."
+        },
+        {
+          "id": 8,
+          "question": "Which of the following is aromatic?",
+          "options": ["A) Cyclopentadiene", "B) Cyclopentadienyl anion", "C) Cyclopentadienyl cation", "D) Cyclohexadiene"],
+          "correctAnswer": "B",
+          "rationale": "The cyclopentadienyl anion has 6 pi electrons (4 from double bonds + 2 from the lone pair), fitting the 4n+2 rule. Distractors: (A) and (C) have 4 pi e-; (D) is not fully conjugated."
+        },
+        {
+          "id": 9,
+          "question": "What is the product of the reaction between Formaldehyde and a Grignard reagent?",
+          "options": ["A) Primary alcohol", "B) Secondary alcohol", "C) Tertiary alcohol", "D) Ketone"],
+          "correctAnswer": "A",
+          "rationale": "Formaldehyde has no alkyl groups on the carbonyl carbon; adding one R group via Grignard results in a primary alcohol. Distractors: (B) comes from other aldehydes; (C) comes from ketones."
+        },
+        {
+          "id": 10,
+          "question": "Which of the following is the most nucleophilic species?",
+          "options": ["A) NH3 (Ammonia)", "B) CH3NH2 (Methylamine)", "C) C6H5NH2 (Aniline)", "D) H2O (Water)"],
+          "correctAnswer": "B",
+          "rationale": "Alkyl groups increase electron density on Nitrogen (inductive effect), making it more nucleophilic than ammonia. Aniline's lone pair is delocalized. Distractors: (A) is less basic than alkyl amines; (C) is resonance-stabilized; (D) is a weak nucleophile."
+        }
+      ]
+    }
+  ]
+}
