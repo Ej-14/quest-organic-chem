@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.0//EN" "http://www.w3.org/TR/2001/REC-SVG-20010904/DTD/svg10.dtd">
+<!-- Creator: CorelDRAW 2021.5 -->
+<svg xmlns="http://www.w3.org/2000/svg" xml:space="preserve" width="65.13mm" height="77.446mm" version="1.0" shape-rendering="geometricPrecision" text-rendering="geometricPrecision" image-rendering="optimizeQuality" fill-rule="evenodd" clip-rule="evenodd"
+viewBox="0 0 6513 7744.6"
+ xmlns:xlink="http://www.w3.org/1999/xlink"
+ xmlns:xodm="http://www.corel.com/coreldraw/odm/2003">
+ <defs>
+  <font id="FontID0" horiz-adv-x="722" font-variant="normal" fill-rule="nonzero" font-style="normal" font-weight="700">
+	<font-face 
+		font-family="Arial">
+		<font-face-src>
+			<font-face-name name="Arial Bold"/>
+		</font-face-src>
+	</font-face>
+   <missing-glyph><path d="M0 0z"/></missing-glyph>
+   <glyph unicode="X" horiz-adv-x="667" d="M0.500224 0l247.163 373.34 -224.169 342.654 168.834 0 141.011 -213.165 140.994 213.165 169.162 0 -224.67 -342.826 246.68 -373.167 -173.664 0 -158.675 242.505 -158.83 -242.505 -173.837 0z"/>
+   <glyph unicode="Y" horiz-adv-x="667" d="M260.996 0l0 301.325 -262.497 414.669 169.507 0 169.335 -283.489 164.833 283.489 166.333 0 -262.514 -415.652 0 -300.342 -144.996 0z"/>
+  </font>
+ </defs>
+ <g id="Layer_x0020_1">
+  <metadata id="CorelCorpID_0Corel-Layer"/>
+  <g id="_2345542262192">
+   <rect fill="white" x="-7.13" y="0.51" width="6512.99" height="7744.63" rx="271.38" ry="272.32"/>
+   <path fill="black" d="M264.24 0.51l5970.24 0c149.27,0 271.38,122.12 271.38,271.38l0 7201.88c0,149.26 -122.11,271.38 -271.38,271.38l-5970.24 0c-149.26,0 -271.37,-122.12 -271.37,-271.38l0 -7201.88c0,-149.26 122.11,-271.38 271.37,-271.38zm0 72.63c-109.17,0 -198.75,89.58 -198.75,198.75l0 7201.88c0,109.17 89.58,198.75 198.75,198.75l5970.24 0c109.18,0 198.75,-89.58 198.75,-198.75l0 -7201.88c0,-109.17 -89.57,-198.75 -198.75,-198.75l-5970.24 0z"/>
+   <text x="2340.67" y="1009.64"  fill="black" font-weight="bold" font-size="579.74px" font-family="Arial">Y</text>
+   <text x="1899.77" y="3659.7"  fill="black" font-weight="bold" font-size="579.74px" font-family="Arial">Y</text>
+   <text x="1546.02" y="6382.39"  fill="black" font-weight="bold" font-size="579.74px" font-family="Arial">Y</text>
+   <text x="5527.76" y="1009.64"  fill="black" font-weight="bold" font-size="579.74px" font-family="Arial">Y</text>
+   <text x="5086.86" y="3659.7"  fill="black" font-weight="bold" font-size="579.74px" font-family="Arial">Y</text>
+   <text x="4733.11" y="6382.39"  fill="black" font-weight="bold" font-size="579.74px" font-family="Arial">Y</text>
+   <text x="4483.01" y="1601.76"  fill="black" font-weight="bold" font-size="579.74px" font-family="Arial">X</text>
+   <text x="4042.11" y="4251.82"  fill="black" font-weight="bold" font-size="579.74px" font-family="Arial">X</text>
+   <text x="3688.36" y="6974.51"  fill="black" font-weight="bold" font-size="579.74px" font-family="Arial">X</text>
+   <text x="1295.9" y="1601.76"  fill="black" font-weight="bold" font-size="579.74px" font-family="Arial">X</text>
+   <text x="855" y="4251.82"  fill="black" font-weight="bold" font-size="579.74px" font-family="Arial">X</text>
+   <text x="501.25" y="6974.51"  fill="black" font-weight="bold" font-size="579.74px" font-family="Arial">X</text>
+  </g>
+ </g>
+</svg>

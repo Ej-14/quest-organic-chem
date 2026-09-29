@@ -113,7 +113,7 @@ export default function QuestionCard({
         {question.image && (
           <div className="mt-4">
             <img 
-              src={`/images/${question.image}`} 
+              src={`${import.meta.env.BASE_URL}images/${question.image}`} 
               alt="Question diagram" 
               className="max-w-full h-auto max-h-64 rounded-lg border border-[var(--color-border)]"
             />
@@ -183,7 +183,7 @@ export default function QuestionCard({
                     )}
                     {imageFilename && (
                       <img 
-                        src={`/images/${imageFilename}`} 
+                        src={`${import.meta.env.BASE_URL}images/${imageFilename}`} 
                         alt={`Option ${letter} image`} 
                         className="h-40 w-auto max-w-l rounded-lg border border-[var(--color-border)]"
                       />

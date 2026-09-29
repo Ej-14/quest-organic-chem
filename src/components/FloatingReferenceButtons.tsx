@@ -21,7 +21,7 @@ export default function FloatingReferenceButtons({
       {/* Abbreviations and Symbols, Constants and Equations (Left) */}
       <div className="relative group">
         <button
-          onClick={() => onOpenSvgViewer('/images/sym-const-equa.svg', 'ABBREVIATIONS AND SYMBOLS, CONSTANTS AND EQUATIONS')}
+          onClick={() => onOpenSvgViewer(`${import.meta.env.BASE_URL}images/sym-const-equa.svg`, 'ABBREVIATIONS AND SYMBOLS, CONSTANTS AND EQUATIONS')}
           className="flex items-center gap-2 px-3 py-2 bg-[var(--color-accent)] text-white rounded-xl shadow-lg hover:opacity-90 transition-all duration-200"
           aria-label="View Abbreviations and Symbols, Constants and Equations"
         >
@@ -35,7 +35,7 @@ export default function FloatingReferenceButtons({
       {/* Periodic Table of the Elements (Right) */}
       <div className="relative group">
         <button
-          onClick={() => onOpenSvgViewer('/images/perio-table.svg', 'PERIODIC TABLE OF THE ELEMENTS')}
+          onClick={() => onOpenSvgViewer(`${import.meta.env.BASE_URL}images/perio-table.svg`, 'PERIODIC TABLE OF THE ELEMENTS')}
           className="flex items-center gap-2 px-3 py-2 bg-emerald-600 text-white rounded-xl shadow-lg hover:opacity-90 transition-all duration-200"
           aria-label="View Periodic Table of the Elements"
         >
