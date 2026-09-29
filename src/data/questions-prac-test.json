@@ -442,7 +442,7 @@
         {
           "id": 60,
           "question": "To what elements are the phosphorus atoms in DNA bonded?\n I. C\n II. H",
-          "options": ["A) I and II only", "B) I and III only", "C) II and III only", "D) I, II, and III"],
+          "options": ["A) I only", "B) III only", "C) Both I and II", "D) Neither I nor II"],
           "correctAnswer": "D",
           "rationale": "D"
         }
@@ -4545,8 +4545,8 @@
             "C) the solubility rule",
             "D) the 'like dissolves like' rule"
           ],
-          "correctAnswer": "",
-          "rationale": ""
+          "correctAnswer": "D",
+          "rationale": "The principle that polar solutes dissolve in polar solvents and nonpolar solutes dissolve in nonpolar solvents is called the 'like dissolves like' rule: similar intermolecular forces make the solute-solvent interactions favorable. Hund's rule deals with electron filling of orbitals, Henry's law relates gas solubility to partial pressure, and the solubility rules are guidelines for which ionic compounds dissolve in water."
         },
         {
           "id": 53,
@@ -4557,8 +4557,8 @@
             "C) 9 ppm",
             "D) 19 ppm"
           ],
-          "correctAnswer": "",
-          "rationale": ""
+          "correctAnswer": "D",
+          "rationale": "The exponent is missing in the question; the value that matches the choices is 3 x 10^-4 M Cu2+. Mass concentration = 3 x 10^-4 mol/L x 63.55 g/mol = 0.0191 g/L = 19.1 mg/L. In dilute aqueous solution 1 mg/L is about 1 ppm, so the copper(II) content is about 19 ppm."
         },
         {
           "id": 54,
@@ -4570,7 +4570,7 @@
             "D) none of the above"
           ],
           "correctAnswer": "C",
-          "rationale": "C"
+          "rationale": "Moles KMnO4 = 0.8214 g / 158.04 g/mol = 5.197 x 10^-3 mol, so the stock is 5.197 x 10^-3 mol / 0.500 L = 0.01039 M. First dilution (2.000 mL to 1000 mL): 0.01039 M x 2.000/1000 = 2.079 x 10^-5 M. Second dilution (10.00 mL to 250 mL): 2.079 x 10^-5 M x 10.00/250 = 8.316 x 10^-7 M."
         },
         {
           "id": 55,
@@ -4581,8 +4581,8 @@
             "C) bleaching your clothes",
             "D) melting of ice"
           ],
-          "correctAnswer": "",
-          "rationale": ""
+          "correctAnswer": "C",
+          "rationale": "Bleaching clothes is a chemical reaction: the bleach chemically oxidizes the colored compounds in the fabric into colorless substances, so new substances form. An air conditioner cooling air and ice melting are physical changes (heat transfer and change of state) in which no new substance is produced."
         },
         {
           "id": 56,
@@ -4594,8 +4594,8 @@
             "C) Flask 3",
             "D) Flask 4"
           ],
-          "correctAnswer": "",
-          "rationale": ""
+          "correctAnswer": "B",
+          "rationale": "By the ideal gas law (PV = nRT), for the same number of molecules (same n) at the same temperature, pressure is inversely proportional to volume. Flask 1 is the smallest, so the molecules are confined to the least volume, collide with the walls most often, and produce the highest pressure. Flask 4 is the largest and has the lowest pressure."
         },
         {
           "id": 57,
@@ -4606,8 +4606,8 @@
             "C) NH2OH(aq) + HNO2(aq)",
             "D) NH4NO3(aq)"
           ],
-          "correctAnswer": "",
-          "rationale": ""
+          "correctAnswer": "D",
+          "rationale": "Ammonia is a weak base and nitric acid is a strong acid. NH3 accepts a proton from HNO3 to form NH4+, which pairs with NO3- to give ammonium nitrate: NH3(aq) + HNO3(aq) -> NH4NO3(aq). NH4OH is only a way of writing aqueous ammonia, not the product of this neutralization."
         },
         {
           "id": 58,
@@ -4618,8 +4618,8 @@
             "C) Keep the eye level with the bottom of the meniscus and record that reading.",
             "D) Look down at the meniscus at an angle to obtain the average reading directly."
           ],
-          "correctAnswer": "",
-          "rationale": ""
+          "correctAnswer": "C",
+          "rationale": "Read the volume with the eye level with the bottom of the meniscus (the lowest point of the curve for aqueous solutions). This avoids parallax error. Reading from above or below the meniscus, or averaging top and bottom readings, gives inaccurate results."
         },
         {
           "id": 59,
@@ -4630,8 +4630,8 @@
             "C) turn the balance off to clear any previous weighings from its memory",
             "D) weigh the object several times on different balances and take the average of these weighings"
           ],
-          "correctAnswer": "",
-          "rationale": ""
+          "correctAnswer": "B",
+          "rationale": "Accurate weighing requires a stable, undisturbed balance: do not lean on the bench (vibration), close the draft doors to keep out air currents, and zero (tare) the balance before weighing. Leaving the object on the pan for minutes, switching the balance off, or using several different balances does not improve accuracy and may introduce errors."
         },
         {
           "id": 60,
@@ -4642,8 +4642,8 @@
             "C) Pour and allow the liquid to run along the stirring rod",
             "D) Hold containers at arm's length, with elbows slightly bent"
           ],
-          "correctAnswer": "",
-          "rationale": ""
+          "correctAnswer": "B",
+          "rationale": "Liquids should be poured slowly and carefully, not fast. Good technique is to hold the stirring rod against the spout and the receiving container so the liquid runs down the rod, keeping the containers away from the body. Pouring quickly increases splashing and the chance of spills."
         },
         {
           "id": 61,
@@ -4654,8 +4654,8 @@
             "C) McBride method",
             "D) Liebig method"
           ],
-          "correctAnswer": "",
-          "rationale": ""
+          "correctAnswer": "A",
+          "rationale": "The Kjeldahl method determines total nitrogen (digestion with H2SO4, distillation of the released ammonia, then titration). Protein content is estimated by multiplying the nitrogen value by a conversion factor (about 6.25 for meat). The Mohr method is a titration for chloride, not for protein."
         },
         {
           "id": 62,
@@ -4666,8 +4666,8 @@
             "C) Most of the liquid above the ppt is decanted first, bulk of ppt is transferred through a stirring rod, wash the beaker several times with small volumes of wash solution.",
             "D) Solution is shaken, then immediately filtered; beaker is washed with relatively big volumes of wash solution."
           ],
-          "correctAnswer": "",
-          "rationale": ""
+          "correctAnswer": "C",
+          "rationale": "For a quantitative transfer, decant most of the supernatant liquid through the filter first, transfer the bulk of the precipitate with the help of a stirring rod, and rinse the beaker several times with small portions of wash solution. Many small washes remove residue more efficiently than one large one and limit loss of precipitate by dissolution. Shaking and filtering immediately tends to clog the filter."
         },
         {
           "id": 63,
@@ -4678,8 +4678,8 @@
             "C) refrigerated til analyzed",
             "D) collected in all glass bottle"
           ],
-          "correctAnswer": "",
-          "rationale": ""
+          "correctAnswer": "A",
+          "rationale": "Oil and grease stick to plastic surfaces, so the sample must not be collected in a plastic bottle. It should be collected in a glass bottle, preserved with acid (H2SO4 or HCl to pH < 2) and refrigerated until analysis."
         },
         {
           "id": 64,
@@ -4690,8 +4690,8 @@
             "C) mix uniformly",
             "D) repel one another"
           ],
-          "correctAnswer": "",
-          "rationale": ""
+          "correctAnswer": "A",
+          "rationale": "Immiscible liquids of different densities, such as oil and water, separate into layers according to their densities, with the less dense liquid (oil) floating on the denser one (water). They do not exchange densities or mix uniformly."
         },
         {
           "id": 65,
@@ -4702,8 +4702,8 @@
             "C) The ability of a substance to conduct variable resistance.",
             "D) The ability of a substance to conduct electric current, which is the reciprocal of resistivity."
           ],
-          "correctAnswer": "",
-          "rationale": ""
+          "correctAnswer": "D",
+          "rationale": "Conductivity is the ability of a substance to conduct electric current, and it is the reciprocal of resistivity (kappa = 1/rho). It is therefore not the same as resistivity."
         },
         {
           "id": 66,
@@ -4714,8 +4714,8 @@
             "C) Solid water (ice) is less dense than liquid water (ice floats in water).",
             "D) It can freeze."
           ],
-          "correctAnswer": "",
-          "rationale": ""
+          "correctAnswer": "C",
+          "rationale": "Water is unusual because its solid form (ice) is less dense than the liquid. Hydrogen bonding forces water molecules into an open hexagonal lattice on freezing, which is why ice floats. Being clear, tasteless, or able to freeze are not unique properties of water."
         },
         {
           "id": 67,
@@ -4726,8 +4726,8 @@
             "C) increasing temperature has no effect on its value",
             "D) is directly affected by temperature"
           ],
-          "correctAnswer": "",
-          "rationale": ""
+          "correctAnswer": "C",
+          "rationale": "Electrical conductivity measures how well a solution conducts current and is related to the total dissolved ions/solids. It depends strongly on temperature (roughly 2% increase per degree C), which is why it is reported at a reference temperature such as 25 C. The statement that temperature has no effect is false."
         },
         {
           "id": 68,
@@ -4738,8 +4738,8 @@
             "C) a measure of the amount of hydrogen ions in solution",
             "D) does not change when there are changes in temperature"
           ],
-          "correctAnswer": "",
-          "rationale": ""
+          "correctAnswer": "D",
+          "rationale": "pH is the negative logarithm of the hydrogen ion concentration (activity) and measures the acidity or alkalinity of a solution. pH does change with temperature (for example, Kw changes, so the pH of neutral water is 7.0 at 25 C but about 6.1 at 100 C), so the statement that it does not change is the false one."
         },
         {
           "id": 69,
@@ -4751,8 +4751,8 @@
             "C) filter a precipitate",
             "D) reflux a solution"
           ],
-          "correctAnswer": "",
-          "rationale": ""
+          "correctAnswer": "D",
+          "rationale": "The apparatus is a round-bottom flask with a vertical (upright) water-jacketed condenser mounted directly on top, with cooling water entering at the bottom side arm and leaving at the top side arm, and the top of the condenser open or fitted with a drying tube. Vapors rise, condense, and run back into the flask, so the solution can be heated at its boiling point without losing solvent. This is a reflux setup. A distillation setup would have a slanted condenser leading to a separate receiving flask, and neither chromatography nor filtration uses a condenser."
         },
         {
           "id": 70,
@@ -4763,8 +4763,8 @@
             "C) Blot the electrode dry after rinsing the pH electrodes.",
             "D) Rinse pH electrodes in between measurements."
           ],
-          "correctAnswer": "",
-          "rationale": ""
+          "correctAnswer": "B",
+          "rationale": "pH electrodes should be stored in the manufacturer's storage solution (for example a KCl solution or pH 4 buffer), not in distilled water, because distilled water leaches ions from the glass bulb and reference junction and makes the electrode sluggish. Cleaning with mild soap, rinsing between measurements, and blotting dry are all recommended."
         },
         {
           "id": 71,
@@ -4775,8 +4775,8 @@
             "C) If there is any spillage that gets onto the instrument, immediately wipe it away.",
             "D) Keep the sample compartment open during measurement."
           ],
-          "correctAnswer": "",
-          "rationale": ""
+          "correctAnswer": "D",
+          "rationale": "The sample compartment must be kept closed during measurement so stray room light does not reach the detector and cause erroneous absorbance readings. The other steps (empty holder at start-up, warm-up and stabilization, wiping up spills immediately) are proper practice."
         },
         {
           "id": 72,
@@ -4787,8 +4787,8 @@
             "C) The hood may be used as a permanent storage area for volatile chemicals when an appropriate storage cabinet is not available.",
             "D) Ensure the exhaust is operating before using the hood."
           ],
-          "correctAnswer": "",
-          "rationale": ""
+          "correctAnswer": "C",
+          "rationale": "A fume hood is a work area and not a storage area. Permanent storage of chemicals clutters the hood, disturbs airflow, and increases fire and exposure risk; volatile chemicals belong in an appropriate storage cabinet."
         },
         {
           "id": 73,
@@ -4799,8 +4799,8 @@
             "C) reactivity",
             "D) polarity"
           ],
-          "correctAnswer": "",
-          "rationale": ""
+          "correctAnswer": "B",
+          "rationale": "The recrystallization solvent is chosen based on solubility (high when hot, low when cold), reactivity (it must not react with the compound), and polarity (like dissolves like). Vapor pressure is not a selection criterion by itself; the related property considered is the boiling point, which should be below the melting point of the solid and low enough for easy removal."
         },
         {
           "id": 74,
@@ -4811,8 +4811,8 @@
             "C) Charles Law",
             "D) Avogadro's Law"
           ],
-          "correctAnswer": "",
-          "rationale": ""
+          "correctAnswer": "B",
+          "rationale": "The Beer-Lambert law (A = epsilon x b x c) states that absorbance is directly proportional to the concentration of the absorbing species and the path length. Boyle's, Charles's and Avogadro's laws describe the behavior of gases."
         },
         {
           "id": 75,
@@ -4823,8 +4823,8 @@
             "C) I only",
             "D) II only"
           ],
-          "correctAnswer": "",
-          "rationale": ""
+          "correctAnswer": "C",
+          "rationale": "Only the strong acid/strong base titration gives a neutral salt and water at the equivalence point, so pH = 7.0. A weak acid/strong base titration ends with a basic conjugate base (pH > 7), and a strong acid/weak base titration ends with an acidic conjugate acid (pH < 7)."
         },
         {
           "id": 76,
@@ -4835,8 +4835,8 @@
             "C) Take several increments and composite them to form the sample.",
             "D) If possible, mix the material before getting the sample."
           ],
-          "correctAnswer": "",
-          "rationale": ""
+          "correctAnswer": "A",
+          "rationale": "The sample container must be made of inert material. A container that reacts chemically with the sample would change its composition and invalidate the results. Frequent sampling, compositing several increments, and mixing before sampling are all good sampling practices."
         },
         {
           "id": 77,
@@ -4847,8 +4847,8 @@
             "C) miscible",
             "D) nonaqueous"
           ],
-          "correctAnswer": "",
-          "rationale": ""
+          "correctAnswer": "A",
+          "rationale": "Water dissolves in (is miscible with) an aqueous layer. If the added drop of water dissolves in the top layer, the top layer is aqueous; if the drop stays as a separate bead, the top layer is nonaqueous (organic)."
         },
         {
           "id": 78,
@@ -4859,8 +4859,8 @@
             "C) evaporation",
             "D) oven drying"
           ],
-          "correctAnswer": "",
-          "rationale": ""
+          "correctAnswer": "A",
+          "rationale": "In distillation, the sample is heated to the boiling point, the volatile components move into the vapor phase, are condensed, and are collected as distillate. Evaporation removes the solvent without collecting it, liquid-liquid extraction separates by partitioning between immiscible liquids, and oven drying removes moisture."
         },
         {
           "id": 79,
@@ -4871,8 +4871,8 @@
             "C) all of the choices",
             "D) inorganic trace analyses"
           ],
-          "correctAnswer": "",
-          "rationale": ""
+          "correctAnswer": "D",
+          "rationale": "Glass is not suitable for inorganic trace analyses because it can leach elements such as Na, K, B, Si and Al into the sample and adsorb trace metal ions on its surface; plastics such as polyethylene, polypropylene or PTFE are preferred. Glass is the preferred container for oil and grease (which adhere to plastic) and can be sterilized for microbiological samples."
         },
         {
           "id": 80,
@@ -4883,8 +4883,8 @@
             "C) mixture",
             "D) solution"
           ],
-          "correctAnswer": "",
-          "rationale": ""
+          "correctAnswer": "B",
+          "rationale": "The solvent is the substance that does the dissolving and is the major component (more than 50%) of the solution. The solute is the dissolved substance present in the smaller amount, and the solution is the whole homogeneous mixture."
         },
         {
           "id": 81,
@@ -4895,8 +4895,8 @@
             "C) Volumetric analysis",
             "D) Titrimetric analysis"
           ],
-          "correctAnswer": "",
-          "rationale": ""
+          "correctAnswer": "A",
+          "rationale": "Gravimetric analysis is the quantitative determination of an analyte by weighing, usually a separated, dried (or ignited) precipitate of known composition. Volumetric and titrimetric analysis are based on measuring volume of a reagent."
         },
         {
           "id": 82,
@@ -4907,8 +4907,8 @@
             "C) Lower Control Limit",
             "D) Limit of Quantitation"
           ],
-          "correctAnswer": "",
-          "rationale": ""
+          "correctAnswer": "B",
+          "rationale": "The Method Detection Limit (MDL) is the minimum concentration of a substance that can be measured and reported with 99% confidence that the analyte concentration is greater than zero. The Limit of Quantitation is the higher level at which results can be reported with acceptable precision, and warning/control limits are quality control chart terms."
         },
         {
           "id": 83,
@@ -4919,8 +4919,8 @@
             "C) 9.9995 g",
             "D) 10.2515 g"
           ],
-          "correctAnswer": "",
-          "rationale": ""
+          "correctAnswer": "C",
+          "rationale": "Molar mass of NaOH = 22.99 + 16.00 + 1.008 = 39.998 g/mol. NaOH has one OH- per formula unit, so its equivalent weight is also 39.998 g/eq. Mass = N x V x equivalent weight = 0.5 eq/L x 0.500 L x 39.998 g/eq = 9.9995 g."
         },
         {
           "id": 84,
@@ -4931,8 +4931,8 @@
             "C) Toxicity",
             "D) Ignitability"
           ],
-          "correctAnswer": "",
-          "rationale": ""
+          "correctAnswer": "C",
+          "rationale": "The toxicity characteristic applies to wastes that can leach toxic constituents (for example heavy metals and pesticides) out of a landfill and contaminate groundwater; it is evaluated with a leaching test such as TCLP. Ignitability, corrosivity and reactivity describe fire, pH and instability hazards instead."
         },
         {
           "id": 85,
@@ -4943,8 +4943,8 @@
             "C) Disposal plastic gloves",
             "D) Surgical gloves"
           ],
-          "correctAnswer": "",
-          "rationale": ""
+          "correctAnswer": "A",
+          "rationale": "Rubber gloves (for example neoprene, nitrile or butyl rubber) resist acids and are recommended for handling acid wastes. Cloth gloves absorb the liquid, and thin disposable plastic or surgical gloves offer only limited chemical resistance and can tear."
         },
         {
           "id": 86,
@@ -4955,8 +4955,8 @@
             "C) Generator ID Number",
             "D) Container Material"
           ],
-          "correctAnswer": "",
-          "rationale": ""
+          "correctAnswer": "A",
+          "rationale": "The Revised DAO 04-36 waste label carries the waste class, HW number, characteristic, form, volume of waste in the container, packaging date, container capacity and material, and the DENR-issued generator ID number. Since volume, generator ID number and container material are all required label items, all of the choices is correct."
         },
         {
           "id": 87,
@@ -4967,8 +4967,8 @@
             "C) It protects you from being exposed to chemical fumes.",
             "D) Must always be on."
           ],
-          "correctAnswer": "",
-          "rationale": ""
+          "correctAnswer": "A",
+          "rationale": "A fume hood protects the user by capturing and exhausting chemical fumes, and its continuous airflow dilutes low concentrations of flammable gases below their explosive limits. It should also be kept running whenever hazardous materials are in use or stored in it. Since B, C and D are all true, all of the choices is the answer."
         },
         {
           "id": 88,
@@ -4979,8 +4979,8 @@
             "C) Oxidizer",
             "D) Carcinogen"
           ],
-          "correctAnswer": "",
-          "rationale": ""
+          "correctAnswer": "B",
+          "rationale": "A respiratory sensitizer causes an allergic, asthma-like reaction in the airways after inhalation, and later exposure to even small amounts can trigger it. Corrosives damage tissue, oxidizers promote combustion, and carcinogens cause cancer."
         },
         {
           "id": 89,
@@ -4991,8 +4991,8 @@
             "C) none of the choices",
             "D) 200 g/mL PCl4"
           ],
-          "correctAnswer": "",
-          "rationale": ""
+          "correctAnswer": "A",
+          "rationale": "Of the choices, only 0.1 M H2SO4 is a dilute aqueous acid that can be neutralized (to about pH 6-9) and flushed down the sink with plenty of water where local rules allow. Phosphorus chlorides react violently with water, releasing HCl and phosphoric acid, so they must not be poured down the drain at any concentration listed."
         },
         {
           "id": 90,
@@ -5003,8 +5003,8 @@
             "C) regular inspection of operational components",
             "D) thorough cleaning with the proper materials"
           ],
-          "correctAnswer": "",
-          "rationale": ""
+          "correctAnswer": "A",
+          "rationale": "Laboratory equipment should be kept clean, inspected regularly and calibrated regularly. Placing it in a hot, humid location promotes corrosion, moisture damage and drift, so it is the practice that should not be done."
         },
         {
           "id": 91,
@@ -5015,8 +5015,8 @@
             "C) Liebig Method",
             "D) Mohr Method"
           ],
-          "correctAnswer": "",
-          "rationale": ""
+          "correctAnswer": "A",
+          "rationale": "The Kjeldahl method determines total nitrogen (digestion, distillation of ammonia, titration), from which protein content is calculated using a conversion factor. It is the standard method for protein in meat and animal feed. The Mohr method is a chloride titration."
         },
         {
           "id": 92,
@@ -5027,8 +5027,8 @@
             "C) the sensitivity of the instrument is highest",
             "D) Instrument reading linear to the input value"
           ],
-          "correctAnswer": "",
-          "rationale": ""
+          "correctAnswer": "D",
+          "rationale": "The dynamic range is the concentration range over which the instrument response is linear with the input (analyte) value, from the limit of quantitation up to where the response starts to deviate from linearity."
         },
         {
           "id": 93,
@@ -5039,8 +5039,8 @@
             "C) 75 ppm Zinc, 75 ppm Cd, 50 ppm Pb",
             "D) 100 ppm Zinc, 25 ppm Cd, 25 ppm Pb"
           ],
-          "correctAnswer": "",
-          "rationale": ""
+          "correctAnswer": "B",
+          "rationale": "Each stock solution goes from 10 mL to 200 mL, a dilution factor of 20 (C1V1 = C2V2). Zn: 2000 x 10/200 = 100 ppm; Cd: 1500 x 10/200 = 75 ppm; Pb: 1000 x 10/200 = 50 ppm."
         },
         {
           "id": 94,
@@ -5051,8 +5051,8 @@
             "C) Absorbance Chart",
             "D) None of the above"
           ],
-          "correctAnswer": "",
-          "rationale": ""
+          "correctAnswer": "A",
+          "rationale": "A calibration curve plots the measured signal against the known quantity or concentration of analyte in standards, and is used to find the concentration of unknown samples. A quality control chart tracks results over time to monitor method performance."
         },
         {
           "id": 95,
@@ -5063,8 +5063,8 @@
             "C) the solubility of gases in water decreases with decreasing temperature",
             "D) the solubility of gases in water increases with decreasing temperature"
           ],
-          "correctAnswer": "",
-          "rationale": ""
+          "correctAnswer": "A",
+          "rationale": "Bubbles of dissolved air appear on the glass before boiling because the solubility of gases in water decreases as temperature increases, so the dissolved gases come out of solution as the water warms."
         },
         {
           "id": 96,
@@ -5075,8 +5075,8 @@
             "C) sieving",
             "D) clean-up"
           ],
-          "correctAnswer": "",
-          "rationale": ""
+          "correctAnswer": "A",
+          "rationale": "Acid digestion breaks down the sample matrix and brings the metals into solution so they can be measured by instruments such as AAS or ICP. Liquid-liquid extraction and clean-up are mainly used for organic analytes, and sieving only separates solids by particle size."
         },
         {
           "id": 97,
@@ -5087,8 +5087,8 @@
             "C) Rotary evaporator",
             "D) Rubber aspirator"
           ],
-          "correctAnswer": "",
-          "rationale": ""
+          "correctAnswer": "B",
+          "rationale": "A Buchner funnel is a porcelain funnel with a perforated plate that holds filter paper and is used with a filter flask and vacuum for suction filtration. A Gooch crucible uses a filter mat instead of filter paper, a rotary evaporator removes solvent, and a rubber aspirator is a suction bulb."
         },
         {
           "id": 98,
@@ -5099,8 +5099,8 @@
             "C) H2S and OH-",
             "D) NH3 and NH4+"
           ],
-          "correctAnswer": "",
-          "rationale": ""
+          "correctAnswer": "C",
+          "rationale": "A conjugate acid-base pair differs by exactly one proton (H+). HCN/CN-, H2O/OH- and NH4+/NH3 all fit this. The conjugate base of H2S is HS-, not OH-, so H2S and OH- are not a conjugate pair."
         },
         {
           "id": 99,
@@ -5111,8 +5111,8 @@
             "C) Freezing point of solid",
             "D) All of the above"
           ],
-          "correctAnswer": "",
-          "rationale": ""
+          "correctAnswer": "D",
+          "rationale": "The temperature at which the solid and liquid phases of a substance coexist in equilibrium is the melting point of the solid, which is the same temperature as the freezing point of the liquid. All of the statements describe this temperature."
         }
       ]
     },
