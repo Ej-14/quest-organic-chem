@@ -2,6 +2,8 @@ import { useEffect, useRef } from 'react';
 import { ChevronLeft, ChevronRight, Check, Flag, CheckCircle, XCircle } from 'lucide-react';
 import * as anime from 'animejs';
 
+const BASE_URL = '/quest-organic-chem/';
+
 interface Question {
   id: number;
   question: string;
@@ -113,7 +115,7 @@ export default function QuestionCard({
         {question.image && (
           <div className="mt-4">
             <img 
-              src={`${import.meta.env.BASE_URL}images/${question.image}`} 
+              src={`${BASE_URL}images/${question.image}`} 
               alt="Question diagram" 
               className="max-w-full h-auto max-h-64 rounded-lg border border-[var(--color-border)]"
             />
@@ -183,7 +185,7 @@ export default function QuestionCard({
                     )}
                     {imageFilename && (
                       <img 
-                        src={`${import.meta.env.BASE_URL}images/${imageFilename}`} 
+                        src={`${BASE_URL}images/${imageFilename}`} 
                         alt={`Option ${letter} image`} 
                         className="h-40 w-auto max-w-l rounded-lg border border-[var(--color-border)]"
                       />
