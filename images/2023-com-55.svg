@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.0//EN" "http://www.w3.org/TR/2001/REC-SVG-20010904/DTD/svg10.dtd">
+<!-- Creator: CorelDRAW 2021.5 -->
+<svg xmlns="http://www.w3.org/2000/svg" xml:space="preserve" width="170.781mm" height="103.245mm" version="1.0" shape-rendering="geometricPrecision" text-rendering="geometricPrecision" image-rendering="optimizeQuality" fill-rule="evenodd" clip-rule="evenodd"
+viewBox="0 0 17078.1 10324.5"
+ xmlns:xlink="http://www.w3.org/1999/xlink"
+ xmlns:xodm="http://www.corel.com/coreldraw/odm/2003">
+ <defs>
+  <font id="FontID0" horiz-adv-x="722" font-variant="normal" fill-rule="nonzero" font-style="normal" font-weight="700">
+	<font-face 
+		font-family="Arial">
+		<font-face-src>
+			<font-face-name name="Arial Bold"/>
+		</font-face-src>
+	</font-face>
+   <missing-glyph><path d="M0 0z"/></missing-glyph>
+   <glyph unicode="H" horiz-adv-x="722" d="M72.9957 0l0 716.006 145.004 0 0 -282.006 282.006 0 0 282.006 144.991 0 0 -716.006 -144.991 0 0 313.003 -282.006 0 0 -313.003 -145.004 0z"/>
+   <glyph unicode="N" horiz-adv-x="722" d="M72.9957 0l0 716.006 140.336 0 294.664 -479.84 0 479.84 134.001 0 0 -716.006 -144.831 0 -290.169 470.664 0 -470.664 -134.001 0z"/>
+  </font>
+ </defs>
+ <g id="Layer_x0020_1">
+  <metadata id="CorelCorpID_0Corel-Layer"/>
+  <rect fill="#FEFEFE" transform="matrix(1.4666E-14 -0.553756 3.55619 9.4184E-14 -5.71285 10331.6)" width="18644.43" height="4802.35"/>
+  <g id="_1801764835152">
+   <rect fill="#201E1E" x="3384.15" y="7126.11" width="100" height="1808.64"/>
+   <path fill="black" d="M3434.15 1021.67l-1300.27 750.71 -1300.27 750.71 0 1501.42 0 1501.42 1300.27 750.71 1300.27 750.71 1300.27 -750.71 1300.27 -750.71 0 -1501.42 0 -1501.42 -1300.27 -750.71 -1300.27 -750.71zm0 115.47l2500.54 1443.69 0 2887.36 -2500.54 1443.69 -2500.54 -1443.69 0 -2887.36 2500.54 -1443.69z"/>
+   <polygon fill="#201E1E" points="8960.72,6781.67 8535.23,7027.34 5984.69,5554.79 5975.33,5505.14 5975.33,5412.39 "/>
+   <polygon fill="#FEFEFE" points="3446.99,6764.96 3446.99,6659.13 3747.46,6659.13 3747.46,7395.97 3483.04,7395.97 3421.31,7295.84 3421.31,7395.97 3120.84,7395.97 3120.84,6659.13 3382,6659.13 "/>
+   <g transform="matrix(1.00001 0 0 1 -5372.99 2133.72)">
+    <text x="8539.05" y="5162.25"  fill="black" font-weight="bold" font-size="749.77px" font-family="Arial">N</text>
+   </g>
+   <polygon fill="#FEFEFE" points="3428.44,8782.26 3439.88,8782.26 3439.88,8570.82 3748.59,8570.82 3748.59,9307.66 3439.88,9307.66 3439.88,9072.98 3428.44,9072.98 3428.44,9307.66 3119.72,9307.66 3119.72,8570.82 3428.44,8570.82 "/>
+   <g transform="matrix(1.00001 0 0 1 -5374.11 4045.41)">
+    <text x="8539.05" y="5162.25"  fill="black" font-weight="bold" font-size="749.77px" font-family="Arial">H</text>
+   </g>
+   <polygon fill="#201E1E" points="8485.23,6940.73 8585.23,6998.47 11085.77,5554.78 13636.31,7027.33 16236.85,5525.91 16186.85,5439.3 13636.31,6911.86 11085.77,5439.31 "/>
+  </g>
+ </g>
+</svg>
