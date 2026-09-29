@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.0//EN" "http://www.w3.org/TR/2001/REC-SVG-20010904/DTD/svg10.dtd">
+<!-- Creator: CorelDRAW 2021.5 -->
+<svg xmlns="http://www.w3.org/2000/svg" xml:space="preserve" width="198.669mm" height="66.007mm" version="1.0" shape-rendering="geometricPrecision" text-rendering="geometricPrecision" image-rendering="optimizeQuality" fill-rule="evenodd" clip-rule="evenodd"
+viewBox="0 0 19866.9 6600.7"
+ xmlns:xlink="http://www.w3.org/1999/xlink"
+ xmlns:xodm="http://www.corel.com/coreldraw/odm/2003">
+ <defs>
+  <font id="FontID0" horiz-adv-x="722" font-variant="normal" fill-rule="nonzero" font-weight="700">
+	<font-face 
+		font-family="Arial">
+		<font-face-src>
+			<font-face-name name="Arial Bold"/>
+		</font-face-src>
+	</font-face>
+   <missing-glyph><path d="M0 0z"/></missing-glyph>
+   <glyph unicode="C" horiz-adv-x="722" d="M531 263.997l139.996 -42.9991c-21.4942,-78.83 -57.325,-137.332 -107.332,-175.666 -49.9963,-38.1632 -113.334,-57.3357 -190.163,-57.3357 -95.1673,0 -173.334,32.5035 -234.671,97.4997 -61.166,65.0069 -91.8292,153.84 -91.8292,266.672 0,119.165 30.8344,211.829 92.3321,277.831 61.4976,66.0019 142.499,98.9975 242.834,98.9975 87.6673,0 158.837,-25.9985 213.498,-77.8243 32.6639,-30.6739 57.0041,-74.6681 73.3307,-132.175l-142.992 -34.0013c-8.50568,37.0077 -26.1697,66.3336 -53.0027,87.8385 -27.0042,21.5049 -59.6681,32.1718 -98.0025,32.1718 -53.1631,0 -96.3335,-19.0014 -129.329,-57.1753 -33.1668,-37.992 -49.6646,-99.6608 -49.6646,-184.996 0,-90.3313 16.3266,-154.835 48.8301,-193.17 32.6639,-38.4949 74.9997,-57.6674 127.168,-57.6674 38.4949,0 71.6617,12.1647 99.3292,36.6653 27.6675,24.5006 47.6639,62.835 59.6681,115.335z"/>
+   <glyph unicode="I" horiz-adv-x="277" d="M68.0026 0l0 715.996 144.992 0 0 -715.996 -144.992 0z"/>
+  </font>
+ </defs>
+ <g id="Layer_x0020_1">
+  <metadata id="CorelCorpID_0Corel-Layer"/>
+  <g id="_1999119580800">
+   <rect fill="white" x="-5.2" y="8.05" width="19866.95" height="6600.7"/>
+   <g>
+    <g transform="matrix(1.00001 0 0 1 -1904.99 -1805.06)">
+     <text x="9933.45" y="3300.35"  fill="black" font-weight="bold" font-size="934.67px" font-family="Arial">CI</text>
+    </g>
+    <g transform="matrix(1.00001 0 0 1 -9364.02 648.89)">
+     <text x="9933.45" y="3300.35"  fill="black" font-weight="bold" font-size="934.67px" font-family="Arial">CI</text>
+    </g>
+    <polygon fill="black" points="8120,1645.03 7876.67,1239.77 6904.19,2046.25 6951.03,2050.19 6944.56,2127.03 "/>
+    <polygon fill="black" points="1605.11,3381.64 1602.24,3854.33 2852.27,3671.09 2814.31,3643.37 2859.78,3581.1 "/>
+    <path fill="black" d="M7131.26 4819.35l-1295.92 491.76 -1295.93 491.78 -868.17 -1080.54 -868.16 -1080.53 759.37 -1159.59 759.37 -1159.56 1337.49 363.87 1337.47 363.88 67.24 1384.46 67.24 1384.47zm-85.97 -56.3l-128.61 -2648.27 -2558.4 -696.04 -1452.56 2218.09 1660.67 2066.9 2478.9 -940.68z"/>
+    <g transform="matrix(1.00001 0 0 1 8435.55 2400.35)">
+     <text x="9933.45" y="3300.35"  fill="black" font-weight="bold" font-size="934.67px" font-family="Arial">CI</text>
+    </g>
+    <g transform="matrix(1.00001 0 0 1 836.902 312.053)">
+     <text x="9933.45" y="3300.35"  fill="black" font-weight="bold" font-size="934.67px" font-family="Arial">CI</text>
+    </g>
+    <polygon fill="black" points="18460.55,4880.81 18217.21,5286.07 17244.73,4479.58 17291.57,4475.64 17285.1,4398.81 "/>
+    <polygon fill="black" points="11806.03,3044.8 11803.16,3517.5 13053.19,3334.26 13015.23,3306.54 13060.7,3244.27 "/>
+    <path fill="black" d="M17332.18 4482.51l-1295.93 491.77 -1295.92 491.77 -868.17 -1080.54 -868.16 -1080.53 759.37 -1159.58 759.37 -1159.57 1337.49 363.87 1337.47 363.88 67.24 1384.47 67.24 1384.46zm-85.97 -56.3l-128.62 -2648.27 -2558.4 -696.03 -1452.56 2218.09 1660.68 2066.9 2478.9 -940.69z"/>
+   </g>
+  </g>
+ </g>
+</svg>

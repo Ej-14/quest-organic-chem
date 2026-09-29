@@ -5,9 +5,13 @@ import SidebarNav from './components/SidebarNav';
 import ResultModal from './components/ResultModal';
 import ProgressBar from './components/ProgressBar';
 import ChapterSelection from './components/ChapterSelection';
+import PracticeTestSelection from './components/PracticeTestSelection';
 import ModeSelection from './components/ModeSelection';
+import FloatingReferenceButtons from './components/FloatingReferenceButtons';
+import SVGViewerModal from './components/SVGViewerModal';
 import questionsData from './data/questions.json';
 import shuffleQuestionsData from './data/questions-shuffle.json';
+import practiceQuestionsData from './data/questions-prac-test.json';
 
 interface BaseQuestion {
   id: number;
@@ -40,6 +44,7 @@ interface UserAnswer {
   selectedOption: string;
   chapterId: number;
   questionIndex: number;
+  isCorrect?: boolean;
 }
 
 interface ProgressState {
@@ -47,9 +52,11 @@ interface ProgressState {
   currentQuestionIndex: number;
   isCompleted: boolean;
   showResults: boolean;
+  showFeedback?: boolean;
+  lastAnswerCorrect?: boolean;
 }
 
-type Mode = 'chapter' | 'shuffle' | null;
+type Mode = 'chapter' | 'shuffle' | 'practice' | null;
 type ProgressRecord = Record<number, ProgressState>;
 
 const getChapterWithFullQuestions = (chapters: Chapter[], chapterId: number): ChapterWithFullQuestions | undefined => {
@@ -79,15 +86,24 @@ function App() {
   const [mode, setMode] = useState<Mode>(null);
   const [selectedChapterId, setSelectedChapterId] = useState<number | null>(null);
   const [currentStage, setCurrentStage] = useState<number>(0);
+  const [selectedPracticeTestId, setSelectedPracticeTestId] = useState<number | null>(null);
   const [reshuffleKey, setReshuffleKey] = useState(0);
   
   const [chapterProgress, setChapterProgress] = useState(() => ({} as ProgressRecord));
   const [shuffleProgress, setShuffleProgress] = useState(() => ({} as ProgressRecord));
+  const [practiceProgress, setPracticeProgress] = useState(() => ({} as ProgressRecord));
+  const [svgViewer, setSvgViewer] = useState<{ isOpen: boolean; url: string; title: string }>({ isOpen: false, url: '', title: '' });
 
   const chapters = useMemo(() => questionsData.chapters.map(c => ({
     id: c.id,
     title: c.title,
     questionCount: c.questions.length
+  })), []);
+
+  const practiceTestsInfo = useMemo(() => practiceQuestionsData.chapters.map(test => ({
+    id: test.id,
+    title: test.title,
+    questionCount: test.questions.length
   })), []);
 
   const shuffledChapters = useMemo(() => {
@@ -115,12 +131,34 @@ function App() {
     return chunks;
   }, [shuffledChapters]);
 
+  const practiceTests = useMemo((): Question[][] => {
+    const tests: Question[][] = [];
+    practiceQuestionsData.chapters.forEach(test => {
+      const testQuestions: Question[] = [];
+      let globalIndex = 0;
+      test.questions.forEach(q => {
+        testQuestions.push({ ...q, chapterId: test.id, chapterTitle: test.title, globalIndex });
+        globalIndex++;
+      });
+      tests.push(testQuestions);
+    });
+    return tests;
+  }, []);
+
   const completedChapters = useMemo(() => 
     Object.entries(chapterProgress)
       .filter(([_, progress]) => progress.isCompleted)
       .map(([id]) => parseInt(id))
       .sort((a, b) => a - b),
     [chapterProgress]
+  );
+
+  const completedPracticeTests = useMemo(() => 
+    Object.entries(practiceProgress)
+      .filter(([_, progress]) => progress.isCompleted)
+      .map(([id]) => parseInt(id))
+      .sort((a, b) => a - b),
+    [practiceProgress]
   );
 
   
@@ -145,12 +183,24 @@ function App() {
     showResults: false
   };
 
+  const practiceTestIndex = (selectedPracticeTestId || 1) - 1;
+  const practiceQuestions = practiceTests[practiceTestIndex] || [];
+  const practiceProgressState = practiceProgress[selectedPracticeTestId || 1] || {
+    answers: [],
+    currentQuestionIndex: 0,
+    isCompleted: false,
+    showResults: false,
+    showFeedback: false,
+    lastAnswerCorrect: false
+  };
+
   const isChapterMode = mode === 'chapter';
   const isShuffleMode = mode === 'shuffle';
-  const isInQuiz = isChapterMode ? selectedChapterId !== null : true;
+  const isPracticeMode = mode === 'practice';
+  const isInQuiz = isChapterMode ? selectedChapterId !== null : isShuffleMode ? true : selectedPracticeTestId !== null;
 
-  const currentQuestions = isChapterMode ? chapterQuestions : stageQuestions;
-  const progressState = isChapterMode ? chapterProgressState : shuffleProgressState;
+  const currentQuestions = isChapterMode ? chapterQuestions : isShuffleMode ? stageQuestions : practiceQuestions;
+  const progressState = isChapterMode ? chapterProgressState : isShuffleMode ? shuffleProgressState : practiceProgressState;
   const currentQuestionIndex = progressState.currentQuestionIndex;
   const currentQuestion = currentQuestions[currentQuestionIndex];
   const answers = progressState.answers;
@@ -169,7 +219,9 @@ function App() {
       answers: [],
       currentQuestionIndex: 0,
       isCompleted: false,
-      showResults: false
+      showResults: false,
+      showFeedback: false,
+      lastAnswerCorrect: false
     };
   }, []);
 
@@ -192,6 +244,8 @@ function App() {
   const handleAnswer = useCallback((option: string) => {
     if (!currentQuestion) return;
 
+    const isCorrect = option.charAt(0) === currentQuestion.correctAnswer;
+    
     const existingIndex = answers.findIndex(
       a => a.questionId === currentQuestion.id && a.chapterId === currentQuestion.chapterId
     );
@@ -200,7 +254,8 @@ function App() {
       questionId: currentQuestion.id,
       selectedOption: option,
       chapterId: currentQuestion.chapterId,
-      questionIndex: currentQuestion.globalIndex
+      questionIndex: currentQuestion.globalIndex,
+      isCorrect
     };
 
     let updatedAnswers: UserAnswer[];
@@ -211,51 +266,80 @@ function App() {
       updatedAnswers = [...answers, newAnswer];
     }
 
-    if (isChapterMode && selectedChapterId !== null) {
+    if (isPracticeMode) {
+      // Practice mode: show immediate feedback
+      updateProgress(setPracticeProgress, selectedPracticeTestId || 1, { 
+        answers: updatedAnswers, 
+        showFeedback: true, 
+        lastAnswerCorrect: isCorrect 
+      });
+    } else if (isChapterMode && selectedChapterId !== null) {
       updateProgress(setChapterProgress, selectedChapterId, { answers: updatedAnswers });
     } else if (isShuffleMode) {
       updateProgress(setShuffleProgress, currentStage, { answers: updatedAnswers });
     }
-  }, [currentQuestion, isChapterMode, isShuffleMode, selectedChapterId, currentStage, answers, updateProgress]);
+  }, [currentQuestion, isChapterMode, isShuffleMode, isPracticeMode, selectedChapterId, currentStage, selectedPracticeTestId, answers, updateProgress]);
 
   const handleNext = useCallback(() => {
     if (currentQuestionIndex < currentQuestions.length - 1) {
-      if (isChapterMode && selectedChapterId !== null) {
+      if (isPracticeMode) {
+        updateProgress(setPracticeProgress, selectedPracticeTestId || 1, { 
+          currentQuestionIndex: currentQuestionIndex + 1,
+          showFeedback: false 
+        });
+      } else if (isChapterMode && selectedChapterId !== null) {
         updateProgress(setChapterProgress, selectedChapterId, { currentQuestionIndex: currentQuestionIndex + 1 });
       } else if (isShuffleMode) {
         updateProgress(setShuffleProgress, currentStage, { currentQuestionIndex: currentQuestionIndex + 1 });
       }
     }
-  }, [currentQuestionIndex, currentQuestions.length, isChapterMode, isShuffleMode, selectedChapterId, currentStage, updateProgress]);
+  }, [currentQuestionIndex, currentQuestions.length, isChapterMode, isShuffleMode, isPracticeMode, selectedChapterId, currentStage, selectedPracticeTestId, updateProgress]);
 
   const handlePrevious = useCallback(() => {
     if (currentQuestionIndex > 0) {
-      if (isChapterMode && selectedChapterId !== null) {
+      if (isPracticeMode) {
+        updateProgress(setPracticeProgress, selectedPracticeTestId || 1, { 
+          currentQuestionIndex: currentQuestionIndex - 1,
+          showFeedback: false 
+        });
+      } else if (isChapterMode && selectedChapterId !== null) {
         updateProgress(setChapterProgress, selectedChapterId, { currentQuestionIndex: currentQuestionIndex - 1 });
       } else if (isShuffleMode) {
         updateProgress(setShuffleProgress, currentStage, { currentQuestionIndex: currentQuestionIndex - 1 });
       }
     }
-  }, [currentQuestionIndex, isChapterMode, isShuffleMode, selectedChapterId, currentStage, updateProgress]);
+  }, [currentQuestionIndex, isChapterMode, isShuffleMode, isPracticeMode, selectedChapterId, currentStage, selectedPracticeTestId, updateProgress]);
 
   const handleQuestionJump = useCallback((index: number) => {
-    if (isChapterMode && selectedChapterId !== null) {
+    if (isPracticeMode) {
+      updateProgress(setPracticeProgress, selectedPracticeTestId || 1, { 
+        currentQuestionIndex: index,
+        showFeedback: false 
+      });
+    } else if (isChapterMode && selectedChapterId !== null) {
       updateProgress(setChapterProgress, selectedChapterId, { currentQuestionIndex: index });
     } else if (isShuffleMode) {
       updateProgress(setShuffleProgress, currentStage, { currentQuestionIndex: index });
     }
-  }, [isChapterMode, isShuffleMode, selectedChapterId, currentStage, updateProgress]);
+  }, [isChapterMode, isShuffleMode, isPracticeMode, selectedChapterId, currentStage, selectedPracticeTestId, updateProgress]);
 
   const handleFinish = useCallback(() => {
-    if (isChapterMode && selectedChapterId !== null) {
+    if (isPracticeMode) {
+      updateProgress(setPracticeProgress, selectedPracticeTestId || 1, { isCompleted: true, showResults: true });
+    } else if (isChapterMode && selectedChapterId !== null) {
       updateProgress(setChapterProgress, selectedChapterId, { isCompleted: true, showResults: true });
     } else if (isShuffleMode) {
       updateProgress(setShuffleProgress, currentStage, { isCompleted: true, showResults: true });
     }
-  }, [isChapterMode, isShuffleMode, selectedChapterId, currentStage, updateProgress]);
+  }, [isChapterMode, isShuffleMode, isPracticeMode, selectedChapterId, currentStage, selectedPracticeTestId, updateProgress]);
 
   const handleContinue = useCallback(() => {
-    if (isChapterMode && selectedChapterId !== null) {
+    if (isPracticeMode) {
+      if ((selectedPracticeTestId || 0) < practiceTests.length - 1) {
+        setSelectedPracticeTestId(prev => (prev || 0) + 1);
+        updateProgress(setPracticeProgress, selectedPracticeTestId || 0, { showResults: false });
+      }
+    } else if (isChapterMode && selectedChapterId !== null) {
       const nextChapter = chapters.find(c => c.id === selectedChapterId + 1);
       if (nextChapter) {
         setSelectedChapterId(nextChapter.id);
@@ -267,10 +351,19 @@ function App() {
         updateProgress(setShuffleProgress, currentStage, { showResults: false });
       }
     }
-  }, [isChapterMode, isShuffleMode, selectedChapterId, currentStage, chapters, stages, updateProgress]);
+  }, [isChapterMode, isShuffleMode, isPracticeMode, selectedChapterId, currentStage, selectedPracticeTestId, chapters, stages, practiceTests, updateProgress]);
 
   const handleRestart = useCallback(() => {
-    if (isChapterMode && selectedChapterId !== null) {
+    if (isPracticeMode) {
+      updateProgress(setPracticeProgress, selectedPracticeTestId || 0, {
+        answers: [],
+        currentQuestionIndex: 0,
+        isCompleted: false,
+        showResults: false,
+        showFeedback: false,
+        lastAnswerCorrect: false
+      });
+    } else if (isChapterMode && selectedChapterId !== null) {
       updateProgress(setChapterProgress, selectedChapterId, {
         answers: [],
         currentQuestionIndex: 0,
@@ -285,7 +378,7 @@ function App() {
         showResults: false
       });
     }
-  }, [isChapterMode, isShuffleMode, selectedChapterId, currentStage, updateProgress]);
+  }, [isChapterMode, isShuffleMode, isPracticeMode, selectedChapterId, currentStage, selectedPracticeTestId, updateProgress]);
 
   const handleBack = useCallback(() => {
     if (isChapterMode && selectedChapterId !== null) {
@@ -295,8 +388,12 @@ function App() {
       updateProgress(setShuffleProgress, currentStage, { showResults: false });
       setCurrentStage(0);
       setMode(null);
+    } else if (isPracticeMode) {
+      updateProgress(setPracticeProgress, selectedPracticeTestId || 0, { showResults: false });
+      setSelectedPracticeTestId(null);
+      setMode(null);
     }
-  }, [isChapterMode, isShuffleMode, selectedChapterId, currentStage, updateProgress]);
+  }, [isChapterMode, isShuffleMode, isPracticeMode, selectedChapterId, currentStage, selectedPracticeTestId, updateProgress]);
 
   const handleSelectChapter = useCallback((chapterId: number) => {
     setSelectedChapterId(chapterId);
@@ -306,13 +403,23 @@ function App() {
     }
   }, [chapterProgress, getProgress, updateProgress]);
 
-  const handleSelectMode = useCallback((selectedMode: 'chapter' | 'shuffle') => {
+  const handleSelectPracticeTest = useCallback((testId: number) => {
+    setSelectedPracticeTestId(testId);
+    const existingProgress = getProgress(testId, practiceProgress);
+    if (existingProgress.isCompleted) {
+      updateProgress(setPracticeProgress, testId, { currentQuestionIndex: 0, showResults: true });
+    }
+  }, [practiceProgress, getProgress, updateProgress]);
+
+  const handleSelectMode = useCallback((selectedMode: 'chapter' | 'shuffle' | 'practice') => {
     setMode(selectedMode);
     if (selectedMode === 'shuffle') {
       setCurrentStage(0);
       setReshuffleKey(prev => prev + 1);
-      // Clear all shuffle progress on reshuffle
       setShuffleProgress({});
+    } else if (selectedMode === 'practice') {
+      setSelectedPracticeTestId(null);
+      setPracticeProgress({});
     }
   }, []);
 
@@ -321,13 +428,16 @@ function App() {
   const getCurrentTitle = () => {
     if (isChapterMode && currentChapter) return currentChapter.title;
     if (isShuffleMode) return `Stage ${currentStage + 1} of ${stages.length}`;
+    if (isPracticeMode) return `Practice Test ${selectedPracticeTestId || 1} of ${practiceTests.length}`;
     return '';
   };
 
   const getTotalQuestions = () => currentQuestions.length;
   const hasNext = isChapterMode 
     ? chapters.some(c => c.id === (selectedChapterId || 0) + 1)
-    : currentStage < stages.length - 1;
+    : isShuffleMode 
+      ? currentStage < stages.length - 1
+      : (selectedPracticeTestId || 0) < practiceTests.length - 1;
 
   return (
     <div className={`min-h-screen transition-colors duration-300 ${darkMode ? 'dark' : 'light'}`}>
@@ -338,7 +448,7 @@ function App() {
         totalQuestions={getTotalQuestions()}
         answeredCount={answeredCount}
         chapterTitle={getCurrentTitle()}
-        onBackToChapters={isInQuiz ? handleBack : isChapterMode ? () => setMode(null) : undefined}
+        onBackToChapters={isInQuiz ? handleBack : isChapterMode ? () => setMode(null) : isPracticeMode && selectedPracticeTestId === null ? () => setMode(null) : undefined}
       />
       
       {mode === null ? (
@@ -361,11 +471,15 @@ function App() {
               animatedProgress={progressPercent}
             />
             
-            <div className="flex-1 flex items-center justify-center p-4 md:p-8 overflow-y-auto">
+            <div className="flex-1 flex justify-center p-4 md:p-8 pt-8 md:pt-20 overflow-y-auto">
               {currentQuestion && (
                 <QuestionCard
                   question={currentQuestion}
                   userAnswer={answers.find(a => a.questionId === currentQuestion.id && a.chapterId === currentQuestion.chapterId)?.selectedOption}
+                  userAnswerCorrect={answers.find(a => a.questionId === currentQuestion.id && a.chapterId === currentQuestion.chapterId)?.isCorrect ?? false}
+                  showFeedback={isPracticeMode ? progressState.showFeedback : progressState.showResults}
+                  correctAnswer={currentQuestion.correctAnswer}
+                  rationale={currentQuestion.rationale}
                   onAnswer={handleAnswer}
                   isLast={currentQuestionIndex === currentQuestions.length - 1}
                   onNext={handleNext}
@@ -374,6 +488,7 @@ function App() {
                   isCompleted={progressState.isCompleted}
                   onFinish={handleFinish}
                   showResults={progressState.showResults}
+                  isPracticeMode={isPracticeMode}
                 />
               )}
             </div>
@@ -386,23 +501,48 @@ function App() {
           currentChapterId={selectedChapterId}
           onSelectChapter={handleSelectChapter}
         />
+      ) : isPracticeMode && selectedPracticeTestId === null ? (
+        <PracticeTestSelection
+          practiceTests={practiceTestsInfo}
+          completedTests={completedPracticeTests}
+          currentTestId={selectedPracticeTestId}
+          onSelectTest={handleSelectPracticeTest}
+        />
       ) : null}
+
+      {isPracticeMode && selectedPracticeTestId !== null && (
+        <FloatingReferenceButtons
+          isPracticeMode={isPracticeMode}
+          selectedPracticeTestId={selectedPracticeTestId}
+          practiceTests={practiceTestsInfo}
+          onOpenSvgViewer={(url, title) => setSvgViewer({ isOpen: true, url, title })}
+        />
+      )}
+
+      {svgViewer.isOpen && (
+        <SVGViewerModal
+          isOpen={svgViewer.isOpen}
+          onClose={() => setSvgViewer({ isOpen: false, url: '', title: '' })}
+          svgUrl={svgViewer.url}
+          title={svgViewer.title}
+        />
+      )}
 
       {isShowingResults && currentQuestion && (
         <ResultModal
-          chapter={isChapterMode && currentChapter ? currentChapter : { id: currentStage + 1, title: `Stage ${currentStage + 1}`, questions: stageQuestions }}
+          chapter={isChapterMode && currentChapter ? currentChapter : isShuffleMode ? { id: currentStage + 1, title: `Stage ${currentStage + 1}`, questions: stageQuestions } : { id: selectedPracticeTestId || 1, title: `Practice Test ${selectedPracticeTestId || 1}`, questions: practiceQuestions }}
           questions={currentQuestions}
           userAnswers={answers}
           onClose={handleBack}
           onRestart={handleRestart}
           onContinue={handleContinue}
           onReshuffle={isShuffleMode ? () => {
-            // Close modal and reset progress before reshuffling
             updateProgress(setShuffleProgress, currentStage, { showResults: false });
             handleSelectMode('shuffle');
           } : undefined}
           hasNextChapter={hasNext}
           isShuffleMode={isShuffleMode}
+          isPracticeMode={isPracticeMode}
         />
       )}
       <footer className="fixed bottom-0 left-0 right-0 bg-[var(--color-card)]/95 backdrop-blur-sm border-t border-[var(--color-border)] py-3 px-4">

@@ -22,13 +22,14 @@ interface Chapter {
 interface ResultModalProps {
   chapter: Chapter;
   questions: Question[];
-  userAnswers: { questionId: number; chapterId: number; selectedOption: string }[];
+  userAnswers: { questionId: number; chapterId: number; selectedOption: string; isCorrect?: boolean }[];
   onClose: () => void;
   onRestart: () => void;
   onContinue: () => void;
   onReshuffle?: () => void;
   hasNextChapter: boolean;
   isShuffleMode?: boolean;
+  isPracticeMode?: boolean;
 }
 
 export default function ResultModal({ 
@@ -40,7 +41,8 @@ export default function ResultModal({
   onContinue,
   onReshuffle,
   hasNextChapter,
-  isShuffleMode = false
+  isShuffleMode = false,
+  isPracticeMode = false
 }: ResultModalProps) {
   const overlayRef = useRef<HTMLDivElement>(null);
   const contentRef = useRef<HTMLDivElement>(null);
@@ -114,6 +116,36 @@ export default function ResultModal({
   const GradeIcon = grade.icon;
   const chapterNum = chapter.id;
 
+  const getTitle = () => {
+    if (isPracticeMode) return `Practice Test Complete`;
+    if (isShuffleMode) return `Stage ${chapterNum} Complete`;
+    return `Chapter ${chapterNum} Complete`;
+  };
+
+  const getSubtitle = () => {
+    if (isPracticeMode) return `You've finished Practice Test ${chapterNum} of the General Chemistry Practice Test`;
+    if (isShuffleMode) return `You've finished Stage ${chapterNum} of the Organic Chemistry Board Examination (Shuffle Mode)`;
+    return `You've finished Chapter ${chapterNum} of the Organic Chemistry Board Examination`;
+  };
+
+  const getRetakeLabel = () => {
+    if (isPracticeMode) return `Retake Practice Test ${chapterNum}`;
+    if (isShuffleMode) return `Retake Stage ${chapterNum}`;
+    return `Retake Chapter ${chapterNum}`;
+  };
+
+  const getContinueLabel = () => {
+    if (isPracticeMode) return `Continue to Next Test`;
+    if (isShuffleMode) return `Continue to Next Stage`;
+    return `Continue to Next Chapter`;
+  };
+
+  const getContinueIcon = () => {
+    if (isPracticeMode) return <ArrowRight className="w-5 h-5" />;
+    if (isShuffleMode) return <ArrowRight className="w-5 h-5" />;
+    return <BookOpen className="w-5 h-5" />;
+  };
+
   return (
     <>
       <div
@@ -138,12 +170,10 @@ export default function ResultModal({
             <div className="flex items-start justify-between mb-6">
               <div>
                 <h2 id="result-title" className="text-2xl md:text-3xl font-bold text-[var(--color-text)]">
-                  Exam Complete
+                  {getTitle()}
                 </h2>
                 <p className="text-[var(--color-text-muted)] mt-1">
-                  {isShuffleMode 
-                    ? `You've finished Stage ${chapterNum} of the Organic Chemistry Board Examination (Shuffle Mode)`
-                    : `You've finished Chapter ${chapterNum} of the Organic Chemistry Board Examination`}
+                  {getSubtitle()}
                 </p>
               </div>
               <button
@@ -262,7 +292,26 @@ export default function ResultModal({
             </div>
 
             <div className="mt-8 flex flex-col sm:flex-row gap-4 justify-center">
-              {isShuffleMode ? (
+              {isPracticeMode ? (
+                <>
+                  <button
+                    onClick={onRestart}
+                    className="btn btn-secondary flex items-center justify-center gap-2"
+                  >
+                    <RotateCcw className="w-5 h-5" />
+                    {getRetakeLabel()}
+                  </button>
+                  {hasNextChapter && (
+                    <button
+                      onClick={onContinue}
+                      className="btn btn-primary flex items-center justify-center gap-2"
+                    >
+                      {getContinueIcon()}
+                      <span>{getContinueLabel()}</span>
+                    </button>
+                  )}
+                </>
+              ) : isShuffleMode ? (
                 <>
                   {onReshuffle && (
                     <button
@@ -278,7 +327,7 @@ export default function ResultModal({
                     className="btn btn-secondary flex items-center justify-center gap-2"
                   >
                     <RotateCcw className="w-5 h-5" />
-                    Retake Stage {chapterNum}
+                    {getRetakeLabel()}
                   </button>
                 </>
               ) : (
@@ -288,9 +337,8 @@ export default function ResultModal({
                       onClick={onContinue}
                       className="btn btn-primary flex items-center justify-center gap-2"
                     >
-                      <BookOpen className="w-5 h-5" />
-                      <span>Continue to Next Chapter</span>
-                      <ArrowRight className="w-5 h-5" />
+                      {getContinueIcon()}
+                      <span>{getContinueLabel()}</span>
                     </button>
                   )}
                   <button
@@ -298,7 +346,7 @@ export default function ResultModal({
                     className="btn btn-secondary flex items-center justify-center gap-2"
                   >
                     <RotateCcw className="w-5 h-5" />
-                    Retake Chapter {chapterNum}
+                    {getRetakeLabel()}
                   </button>
                   <button
                     onClick={onClose}

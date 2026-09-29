@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.0//EN" "http://www.w3.org/TR/2001/REC-SVG-20010904/DTD/svg10.dtd">
+<!-- Creator: CorelDRAW 2021.5 -->
+<svg xmlns="http://www.w3.org/2000/svg" xml:space="preserve" width="141.282mm" height="139.93mm" version="1.0" shape-rendering="geometricPrecision" text-rendering="geometricPrecision" image-rendering="optimizeQuality" fill-rule="evenodd" clip-rule="evenodd"
+viewBox="0 0 14128.2 13993"
+ xmlns:xlink="http://www.w3.org/1999/xlink"
+ xmlns:xodm="http://www.corel.com/coreldraw/odm/2003">
+ <defs>
+     <clipPath id="id0" clip-rule="nonzero">
+      <path d="M10146.03 7001.94c0,-1704.85 -1382.57,-3087.42 -3087.41,-3087.42 -1704.85,0 -3087.42,1382.57 -3087.42,3087.42 0,1704.84 1382.57,3087.41 3087.42,3087.41 1704.84,0 3087.41,-1382.57 3087.41,-3087.41z"/>
+     </clipPath>
+ </defs>
+ <g id="Layer_x0020_1">
+  <metadata id="CorelCorpID_0Corel-Layer"/>
+  <rect fill="#FEFEFE" x="-3.79" y="5.45" width="14128.24" height="13993.04"/>
+  <g id="_1795351237776">
+   <rect fill="#FEFEFE" transform="matrix(0.707107 0.707107 -0.707107 0.707107 7058.62 1178.2)" width="8235.97" height="8236.02"/>
+   <path fill="#ED3237" d="M2157.41 7001.98c403.62,-403.58 4497.66,-4497.41 4901.21,-4900.91 403.34,403.5 4497.34,4497.32 4900.87,4900.89 -403.53,403.44 -4497.55,4497.33 -4900.89,4900.92 -403.55,-403.59 -4497.57,-4497.46 -4901.19,-4900.9zm4901.21 -5823.77l-5823.99 5823.77 5823.96 5823.67 5823.84 -5823.7 -5823.81 -5823.74z"/>
+   <g>
+    <g>
+    </g>
+    <g clip-path="url(#id0)">
+     <g>
+      <g>
+       <path id="b" fill="black" fill-rule="nonzero" d="M7058.59 7001.92l-2735.93 4738.78 4936.22 2849.92 -2200.29 -7588.7zm0 0l0 0 0 0z"/>
+      </g>
+      <g>
+       <path fill="black" fill-rule="nonzero" d="M7058.59 7001.92l2735.93 4738.78 -4936.22 2849.92 2200.29 -7588.7zm0 0l0 0 0 0z"/>
+      </g>
+      <g>
+       <path fill="black" fill-rule="nonzero" d="M7058.59 7001.92l-2735.93 -4738.77 -4936.21 2849.94 7672.14 1888.83zm0 0l0 0 0 0z"/>
+      </g>
+      <g>
+       <path fill="black" fill-rule="nonzero" d="M7058.59 7001.92l-5471.86 0 0 -5699.85 5471.86 5699.85zm0 0l0 0 0 0z"/>
+      </g>
+      <g>
+       <path fill="black" fill-rule="nonzero" d="M7058.59 7001.92l5471.86 0 0 -5699.85 -5471.86 5699.85zm0 0l0 0 0 0z"/>
+      </g>
+      <g>
+       <path fill="black" fill-rule="nonzero" d="M7058.59 7001.92l2735.93 -4738.77 4936.21 2849.94 -7672.14 1888.83zm0 0l0 0 0 0z"/>
+      </g>
+     </g>
+    </g>
+    <path fill="none" fill-rule="nonzero" d="M10146.03 7001.94c0,-1704.85 -1382.57,-3087.42 -3087.41,-3087.42 -1704.85,0 -3087.42,1382.57 -3087.42,3087.42 0,1704.84 1382.57,3087.41 3087.42,3087.41 1704.84,0 3087.41,-1382.57 3087.41,-3087.41z"/>
+    <circle fill="#FEFEFE" fill-rule="nonzero" cx="7058.41" cy="7001.69" r="950.04"/>
+    <circle fill="#201E1E" fill-rule="nonzero" cx="7058.41" cy="7001.68" r="694.05"/>
+   </g>
+  </g>
+ </g>
+</svg>
