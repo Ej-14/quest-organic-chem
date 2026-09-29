@@ -477,7 +477,7 @@ function App() {
                   question={currentQuestion}
                   userAnswer={answers.find(a => a.questionId === currentQuestion.id && a.chapterId === currentQuestion.chapterId)?.selectedOption}
                   userAnswerCorrect={answers.find(a => a.questionId === currentQuestion.id && a.chapterId === currentQuestion.chapterId)?.isCorrect ?? false}
-                  showFeedback={isPracticeMode ? progressState.showFeedback : progressState.showResults}
+                  showFeedback={isPracticeMode ? (progressState.showFeedback ?? false) : progressState.showResults}
                   correctAnswer={currentQuestion.correctAnswer}
                   rationale={currentQuestion.rationale}
                   onAnswer={handleAnswer}
@@ -514,7 +514,6 @@ function App() {
         <FloatingReferenceButtons
           isPracticeMode={isPracticeMode}
           selectedPracticeTestId={selectedPracticeTestId}
-          practiceTests={practiceTestsInfo}
           onOpenSvgViewer={(url, title) => setSvgViewer({ isOpen: true, url, title })}
         />
       )}

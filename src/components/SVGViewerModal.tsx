@@ -1,6 +1,5 @@
-import { useEffect, useRef, useState } from 'react';
-import { ChevronLeft, ChevronRight, Check, Flag, CheckCircle, XCircle, FileText, Minus, Plus, Maximize, Minimize, RotateCcw, X } from 'lucide-react';
-import * as anime from 'animejs';
+import { useRef, useState } from 'react';
+import { Minus, Plus, RotateCcw, X } from 'lucide-react';
 
 interface SVGViewerModalProps {
   isOpen: boolean;
@@ -95,7 +94,6 @@ export default function SVGViewerModal({
       const centerY = (touch1.clientY + touch2.clientY) / 2;
       
       if (touchDistance > 0) {
-        const zoomFactor = distance / touchDistance;
         const newScale = Math.min(Math.max(scale * (distance / touchDistance), 0.2), 5);
         setScale(newScale);
         

@@ -1,5 +1,5 @@
 import { useEffect, useRef } from 'react';
-import { BookOpen, CheckCircle, ArrowRight, FlaskConical } from 'lucide-react';
+import { CheckCircle, ArrowRight, FlaskConical } from 'lucide-react';
 import * as anime from 'animejs';
 
 interface PracticeTest {

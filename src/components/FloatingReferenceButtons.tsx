@@ -3,14 +3,12 @@ import { Superscript, Atom } from 'lucide-react';
 interface FloatingReferenceButtonsProps {
   isPracticeMode: boolean;
   selectedPracticeTestId: number | null;
-  practiceTests: { id: number; title: string; questionCount: number }[];
   onOpenSvgViewer: (url: string, title: string) => void;
 }
 
 export default function FloatingReferenceButtons({ 
   isPracticeMode, 
-  selectedPracticeTestId, 
-  practiceTests,
+  selectedPracticeTestId,
   onOpenSvgViewer
 }: FloatingReferenceButtonsProps) {
   // Only show in practice mode when a test is selected (not in selection screen)
