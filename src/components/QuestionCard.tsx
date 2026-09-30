@@ -205,7 +205,7 @@ export default function QuestionCard({
                 {isShowingFeedback && (isCorrect || isIncorrect) && !isPracticeMode && (
                   <div className="mt-3 pt-3 border-t border-[var(--color-border)] text-sm text-[var(--color-text-muted)]">
                     <strong className="text-[var(--color-text)]">Explanation: </strong>
-                    {rationale}
+                    <span className="whitespace-pre-line">{rationale}</span>
                   </div>
                 )}
               </div>
@@ -228,7 +228,7 @@ export default function QuestionCard({
             <strong>Correct answer: </strong> {correctAnswer}
           </p>
           <p className="mt-2 text-sm text-[var(--color-text-muted)]">
-            <strong>Explanation: </strong> {rationale}
+            <strong>Explanation: </strong> <span className="whitespace-pre-line">{rationale}</span>
           </p>
         </div>
       )}

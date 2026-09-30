@@ -27,7 +27,7 @@
         },
         {
           "id": 4,
-          "question": "First-generation automobile airbags were inflated by the decomposition of sodium azide (M = 65.02):\n 2 NaN₃(s) ® 2 Na(s) + 3 N₂(g)\n What mass of sodium azide would be required to inflate a 16.0 L airbag to a pressure of 1.20 atm at 17°C?",
+          "question": "First-generation automobile airbags were inflated by the decomposition of sodium azide (M = 65.02):\n      2 NaN₃(s) → 2 Na(s) + 3 N₂(g)\nWhat mass of sodium azide would be required to inflate a 16.0 L airbag to a pressure of 1.20 atm at 17°C?",
           "options": ["A) 35.0 g", "B) 52.4 g", "C) 78.6 g", "D) 15.7 g"],
           "correctAnswer": "A",
           "rationale": "Moles of N₂ from the ideal gas law: n = PV/RT = (1.20 atm)(16.0 L) ÷ [(0.08206 L atm mol⁻¹ K⁻¹)(290 K)] = 0.806 mol N₂. From the equation, 2 NaN₃ produce 3 N₂, so moles NaN₃ = 0.806 mol × 2/3 = 0.538 mol. Mass of NaN₃ = 0.538 mol × 65.02 g/mol = 35.0 g. Choice B (52.4 g) comes from wrongly using 1 mol NaN₃ per mole of N₂, and choice C (78.6 g) comes from inverting the mole ratio (× 3/2)."
@@ -119,7 +119,7 @@
           "image": "2019-16.svg",
           "options": ["A) A metallic alloy such as FeCr", "B) A molecular solid such as IBr", "C) An ionic compound such as LiCl", "D) A network covalent solid such as SiC"],
           "correctAnswer": "B",
-          "rationale": "The structure shown represents a molecular solid, where the constituent particles are molecules held together by intermolecular forces."
+          "rationale": "Each X sits close to one Y, forming a tight X–Y pair. The distance between one pair and the next is about three times larger. That pattern means discrete diatomic XY molecules held together by weak intermolecular forces, which is what a molecular solid like IBr looks like."
         },
         {
           "id": 17,
@@ -127,7 +127,7 @@
           "image": "2019-17.svg",
           "options": ["A) I only", "B) II only", "C) Both I and II", "D) Neither I nor II"],
           "correctAnswer": "C",
-          "rationale": "UF6 sublimes at atmospheric pressure, and at 80 °C and 1.5 atm, only the gas phase is present at equilibrium."
+          "rationale": "1 atm is below the pressure of the triple point, which sits at roughly 1.4 atm. Heating the solid at 1 atm therefore follows the solid–gas curve straight to vapor without ever forming a liquid, so UF₆ sublimes at atmospheric pressure."
         },
         {
           "id": 18,
@@ -135,7 +135,7 @@
           "image": "2019-18.svg",
           "options": ["A) XYZ", "B) XYZ₃", "C) XY₄Z₂", "D) XY₈Z₆"],
           "correctAnswer": "B",
-          "rationale": "The unit cell contains 1 atom of X, 1 atom of Y, and 3 atoms of Z, giving the formula XYZ₃."
+          "rationale": "Count how much of each atom belongs to this one unit cell: X (black): 1 atom at the body center, fully inside the cell, so 1 X. Y (gray): 8 atoms at the corners, each shared among 8 cells, so 8 × ⅛ = 1 Y. Z (white): 6 atoms at the face centers, each shared between 2 cells, so 6 × ½ = 3 Z. That gives X : Y : Z = 1 : 1 : 3, so the formula is XYZ₃."
         },
         {
           "id": 19,
@@ -172,11 +172,11 @@
           "image": "2019-23.svg",
           "options": ["A) –1624.3 kJ mol⁻¹", "B) –1615.1 kJ mol⁻¹", "C) –949.8 kJ mol⁻¹", "D) –940.6 kJ mol⁻¹"],
           "correctAnswer": "B",
-          "rationale": ""
+          "rationale": "Use ΔH°rxn = ΣΔH°f(products) − ΣΔH°f(reactants) for SiO₂(s) + 4 HF(aq) → SiF₄(g) + 2 H₂O(l), and let x = ΔH°f(SiF₄):\nProducts: x + 2(−285.8) = x − 571.6\nReactants: −910.9 + 4(−320.1) = −910.9 − 1280.4 = −2191.3. So 4.6 = (x − 571.6) − (−2191.3) = x + 1619.7,\nwhich gives x = 4.6 − 1619.7 = −1615.1 kJ mol⁻¹."
         },
         {
           "id": 24,
-          "question": "The Kₛₚ of BaSO₄ at 298 K is 1.1 × 10⁻¹⁰.  What is ΔG° at 298 K for the following reaction?\n Ba²⁺(aq) + SO₄²⁻(aq) ⇌ BaSO₄(s)",
+          "question": "The Kₛₚ of BaSO₄ at 298 K is 1.1 × 10⁻¹⁰.  What is ΔG° at 298 K for the following reaction?\n    Ba²⁺(aq) + SO₄²⁻(aq) ⇌ BaSO₄(s)",
           "options": ["A) –57 kJ mol⁻¹", "B) –25 kJ mol⁻¹", "C) 25 kJ mol⁻¹", "D) 57 kJ mol⁻¹"],
           "correctAnswer": "A",
           "rationale": "The reaction as written is the reverse of dissolution, so its equilibrium constant is K = 1/Ksp. Then ΔG° = −RT ln K = RT ln Ksp = (8.314 J mol⁻¹ K⁻¹)(298 K) ln(1.1 × 10⁻¹⁰) = −5.68 × 10⁴ J/mol ≈ −57 kJ/mol. The negative sign shows that precipitation of BaSO₄ is strongly favorable."
@@ -187,7 +187,7 @@
           "image": "2019-25.svg",
           "options": ["A) 0th order in A, 2nd order in B", "B) 1st order in A, 1st order in B", "C) 2nd order in A, 1st order in B", "D) 1st order in A, 2nd order in B"],
           "correctAnswer": "D",
-          "rationale": ""
+          "rationale": "Order in B (experiments 2 and 3). [A] stays at 0.60 M while [B] doubles from 0.40 M to 0.80 M. The rate rises from 7200 to 28800 M/s, a factor of 4. Since 2ⁿ = 4, n = 2, so the reaction is second order in B.\nOrder in A (experiments 1 and 2). From 1 to 2, [A] triples (0.20 → 0.60 M) and [B] doubles (0.20 → 0.40 M). The rate rises from 600 to 7200 M/s, a factor of 12.\nThe doubling of [B] accounts for a factor of 2² = 4.\nThe remaining factor is 12 ÷ 4 = 3, which comes from tripling [A].\nSince 3ᵐ = 3, m = 1, so the reaction is first order in A.\nSo the rate law is Rate = k[A][B]²."
         },
         {
           "id": 26,
@@ -234,7 +234,7 @@
           "image": "2019-31.svg",
           "options": ["A) The reaction is at equilibrium because the concentrations of A and B are no longer changing.", "B) The reaction is not at equilibrium because not all of the A has been consumed.", "C) The reaction is not at equilibrium because the concentrations of A and B are not equal.", "D) The reaction is not at equilibrium because the positions of the molecules are still changing."],
           "correctAnswer": "A",
-          "rationale": ""
+          "rationale": "Counting the circles in each frame, A (solid) drops from about 20 at t = 0 to about 8 at t = 100 s, and B (open) rises to about 12. At t = 1000 s the counts are still about 8 A and 12 B. Nothing has changed in the 900 s between the last two frames, which means the system has reached equilibrium."
         },
         {
           "id": 32,
@@ -271,7 +271,7 @@
           "image": "2019-36.svg",
           "options": ["A) I only", "B) II only", "C) Both I and II", "D) Neither I nor II"],
           "correctAnswer": "B",
-          "rationale": ""
+          "rationale": "Statement I is false. Only the acid reacts with NaOH, and the equivalence point (the steep rise) is at about 7.7 mL.\nMoles of NaOH = 0.5000 M × 0.0077 L ≈ 3.9 × 10⁻³ mol, which equals the moles of RCOOH.\nThe sample is a 1:1 mixture, so it also contains 3.9 × 10⁻³ mol of the sodium salt. The 1.000 g is acid plus salt: 1.000 g = (3.9 × 10⁻³ mol)[M + (M + 22)]. The salt is 22 g/mol heavier than the acid because Na replaces H.\nSolving gives 2M + 22 ≈ 260, so M ≈ 119 g/mol. That is nowhere near 265 g/mol.\nDividing 1.000 g by 3.9 × 10⁻³ mol gives about 260, which looks close to 265. That is the trap: it treats the whole 1.000 g as acid.\nStatement II is true. At t = 0 the mixture has equal amounts of RCOOH and RCOO⁻, so the Henderson–Hasselbalch equation gives pH = pKa + log(1) = pKa. The curve starts at pH ≈ 4.2, so the pKa is about 4.2.\nReading the equivalence volume off the graph is approximate. Even at 7.5 to 8.0 mL, M stays around 115 to 125 g/mol, far from 265, so the conclusion doesn't change."
         },
         {
           "id": 37,
