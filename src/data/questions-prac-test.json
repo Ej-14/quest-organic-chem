@@ -271,7 +271,7 @@
           "image": "2019-36.svg",
           "options": ["A) I only", "B) II only", "C) Both I and II", "D) Neither I nor II"],
           "correctAnswer": "B",
-          "rationale": "Statement I is false. Only the acid reacts with NaOH, and the equivalence point (the steep rise) is at about 7.7 mL.\nMoles of NaOH = 0.5000 M × 0.0077 L ≈ 3.9 × 10⁻³ mol, which equals the moles of RCOOH.\nThe sample is a 1:1 mixture, so it also contains 3.9 × 10⁻³ mol of the sodium salt. The 1.000 g is acid plus salt: 1.000 g = (3.9 × 10⁻³ mol)[M + (M + 22)]. The salt is 22 g/mol heavier than the acid because Na replaces H.\nSolving gives 2M + 22 ≈ 260, so M ≈ 119 g/mol. That is nowhere near 265 g/mol.\nDividing 1.000 g by 3.9 × 10⁻³ mol gives about 260, which looks close to 265. That is the trap: it treats the whole 1.000 g as acid.\nStatement II is true. At t = 0 the mixture has equal amounts of RCOOH and RCOO⁻, so the Henderson–Hasselbalch equation gives pH = pKa + log(1) = pKa. The curve starts at pH ≈ 4.2, so the pKa is about 4.2.\nReading the equivalence volume off the graph is approximate. Even at 7.5 to 8.0 mL, M stays around 115 to 125 g/mol, far from 265, so the conclusion doesn't change."
+          "rationale": "Statement I is false. Only the acid reacts with NaOH, and the equivalence point (the steep rise) is at about 7.7 mL.\n\nMoles of NaOH = 0.5000 M × 0.0077 L ≈ 3.9 × 10⁻³ mol, which equals the moles of RCOOH.\nThe sample is a 1:1 mixture, so it also contains 3.9 × 10⁻³ mol of the sodium salt. The 1.000 g is acid plus salt: 1.000 g = (3.9 × 10⁻³ mol)[M + (M + 22)]. The salt is 22 g/mol heavier than the acid because Na replaces H.\nSolving gives 2M + 22 ≈ 260, so M ≈ 119 g/mol. That is nowhere near 265 g/mol.\nDividing 1.000 g by 3.9 × 10⁻³ mol gives about 260, which looks close to 265. That is the trap: it treats the whole 1.000 g as acid.\n\nStatement II is true. At t = 0 the mixture has equal amounts of RCOOH and RCOO⁻, so the Henderson–Hasselbalch equation gives pH = pKa + log(1) = pKa. The curve starts at pH ≈ 4.2, so the pKa is about 4.2.\n\nReading the equivalence volume off the graph is approximate. Even at 7.5 to 8.0 mL, M stays around 115 to 125 g/mol, far from 265, so the conclusion doesn't change."
         },
         {
           "id": 37,
@@ -294,7 +294,7 @@
           "image": "2019-39.svg",
           "options": ["A) 1.6 × 10⁻⁶", "B) 3.1 × 10⁻⁶", "C) 8.4 × 10⁻⁶", "D) 2.9 × 10⁻³"],
           "correctAnswer": "C",
-          "rationale": ""
+          "rationale": "Ksp is the equilibrium constant for Ca(OH)₂(s) ⇌ Ca²⁺(aq) + 2 OH⁻(aq). You can get this reaction by combining the two half-reactions:\n\nCa(OH)₂(s) + 2 e⁻ → Ca(s) + 2 OH⁻(aq), E° = −3.02 V\nCa(s) → Ca²⁺(aq) + 2 e⁻ (the Ca²⁺ half-reaction reversed), E° = +2.87 V\nSum: Ca(OH)₂(s) → Ca²⁺(aq) + 2 OH⁻(aq), E° = −3.02 + 2.87 = −0.15 V\n\nReversing a half-reaction flips the sign of its E° but does not rescale it, and the two electrons cancel, so n = 2.\n\nThen:\nln K = nFE°/RT = (2)(96485)(−0.15) ÷ [(8.314)(298)] = −11.68\nKsp = e^(−11.68) ≈ 8.4 × 10⁻⁶\n\nA negative E° is what you expect for a sparingly soluble salt, since K < 1."
         },
         {
           "id": 40,
@@ -302,7 +302,7 @@
           "image":"2019-40.svg",
           "options": ["A) 2019-40-a.svg", "B) 2019-40-b.svg", "C) 2019-40-c.svg", "D) 2019-40-d.svg"],
           "correctAnswer": "B",
-          "rationale": ""
+          "rationale": "The sulfuric acid is only the electrolyte, so water is what gets electrolyzed:\n\nAnode (+): 2 H₂O → O₂ + 4 H⁺ + 4 e⁻\nCathode (−): 4 H⁺ + 4 e⁻ → 2 H₂\nOverall: 2 H₂O → 2 H₂ + O₂\n\nTwo moles of H₂ form for every mole of O₂. At the same temperature and pressure, gas volume is proportional to moles, so the hydrogen tube collects twice the volume of the oxygen tube.\n\nIn the diagram, the left electrode is wired to the negative terminal, so the left tube is the cathode and collects H₂. The right electrode is wired to the positive terminal, so the right tube is the anode and collects O₂. The left tube should therefore hold about twice as much gas, and its liquid level should sit lower than the right tube's. Picture B is the one that shows this. In the others, the right tube holds as much or more gas than the left, which would mean equal volumes or more O₂ than H₂."
         },
         {
           "id": 41,
@@ -310,7 +310,7 @@
           "image": "2019-41.svg",
           "options": ["A) –0.115 V", "B) –0.107 V", "C) 0.107 V", "D) 0.115 V"],
           "correctAnswer": "D",
-          "rationale": ""
+          "rationale": "Split the reaction into its two half-reactions:\n\nReduction (cathode): Cu²⁺(aq) + 2 e⁻ → Cu(s), E° = +0.337 V\nOxidation (anode): Ag(s) + Cl⁻(aq) → AgCl(s) + e⁻. This is the reverse of the AgCl half-reaction, so E° = −0.222 V.\n\nThen:\n\nE°cell = E°(reduction) + E°(oxidation) = 0.337 + (−0.222) = +0.115 V.\nMultiplying the Ag half-reaction by 2 so the electrons balance does not change its E°, because E° is an intensive quantity that does not scale with coefficients.\n\nThe cell potential is positive, so the reaction is spontaneous as written. A (−0.115 V) has the sign reversed. B and C (±0.107 V) come from using 0.222 × 2 incorrectly in some way, for example subtracting 2 × 0.222 from 0.337."
         },
         {
           "id": 42,
@@ -387,7 +387,7 @@
           "question": "Which resonance structure contributes the most to the overall bonding in nitrous oxide, N₂O?",
           "options": ["A) 2019-52-a.svg", "B) 2019-52-b.svg", "C) 2019-52-c.svg", "D) 2019-52-d.svg"],
           "correctAnswer": "A",
-          "rationale": ""
+          "rationale": "N₂O is linear with the atoms in the order N–N–O. Compare the formal charges (FC = valence e⁻ − nonbonding e⁻ − bonds) in each structure:\n\nA: :N≡N⁺–O⁻: Terminal N = 0, central N = +1, O = −1. Every atom has an octet, and the negative charge sits on oxygen, the most electronegative atom. This is the best structure.\nD: ⁻N=N⁺=O: Terminal N = −1, central N = +1, O = 0. The octets are fine, but the negative charge sits on nitrogen, which is less electronegative than oxygen, so this structure contributes less.\nB: N–N=O: The central N has only 6 electrons around it, with no octet, and the terminal N has too few electrons around it to make sense. This is not a valid structure.\nC: A three-membered ring doesn't match the real linear N–N–O skeleton of N₂O, and the ring strain makes it unfavorable.\n\nOf the two valid resonance forms (A and D), the one that puts the negative formal charge on the more electronegative atom contributes most. That is A."
         },
         {
           "id": 53,
@@ -430,14 +430,14 @@
           "image": "2019-58.svg",
           "options": ["A) 1", "B) 2", "C) 3", "D) 4"],
           "correctAnswer": "D",
-          "rationale": ""
+          "rationale": "The ring is 1-ethyl-2-methylbenzene, with the ethyl and methyl groups on adjacent carbons. Four ring positions are free (call them 3, 4, 5 and 6). The two substituents are different, so the molecule has no symmetry, and each free position gives a different product when Br replaces an H.\n\nAll four positions are also activated, since both alkyl groups direct ortho/para:\n\nPosition 3: ortho to CH₃.\nPosition 4: para to the ethyl group.\nPosition 5: para to CH₃.\nPosition 6: ortho to the ethyl group.\n\nSo the maximum number of monobromination products is 4. Steric hindrance and relative reactivity would make some of them minor, but the question asks for the maximum, so all four count."
         },
         {
           "id": 59,
           "question": "Which compound is NOT considered aromatic?",
           "options": ["A) 2019-59-a.svg", "B) 2019-59-b.svg", "C) 2019-59-c.svg", "D) 2019-59-d.svg"],
           "correctAnswer": "B",
-          "rationale": ""
+          "rationale": "Cyclooctatetraene.\n\nA compound is aromatic only if it is cyclic, planar, fully conjugated, and has 4n + 2 π electrons (Hückel's rule).\n\nA, benzene: 6 π electrons (n = 1), planar and fully conjugated. Aromatic.\nB, cyclooctatetraene: 8 π electrons, which is 4n (n = 2), not 4n + 2. If it were planar it would be antiaromatic, so the molecule twists into a non-planar tub shape to avoid that. It behaves like an ordinary alkene, so it is not aromatic.\nC, naphthalene: 10 π electrons (n = 2), planar and fully conjugated across both rings. Aromatic.\nD, azulene: a fused 7-ring and 5-ring with 10 π electrons (n = 2), planar and fully conjugated around its periphery. Aromatic, even though it is an isomer of naphthalene and has a very different structure."
         },
         {
           "id": 60,
@@ -507,7 +507,7 @@
           "image": "2020-8.svg",
           "options": ["A) 6.6 mL", "B) 7.4 mL", "C) 6.63 mL", "D) 7.37 mL"],
           "correctAnswer": "C",
-          "rationale": ""
+          "rationale": "Direction of the scale. On a buret the numbers increase downward, so the liquid level sits below the 6 mark. The reading is 6.something, which rules out B (7.4) and D (7.37).\n\nWhere to read. Read at the bottom of the meniscus, with your eye level with it. Here the bottom of the curve sits a little past the longer 6.5 mL line, roughly 0.6 of the way from the 6 mark to the 7 mark.\n\nHow many digits to record. The marked graduations are every 0.1 mL. A buret is read to one more digit by estimating between two lines, so the reading is 6.6 plus a doubtful digit, which is about 6.63 mL. Choice A (6.6 mL) is the right place but leaves off the estimated digit, so it is less precise than a buret allows."
         },
         {
           "id": 9,
@@ -557,7 +557,7 @@
           "image": "2020-15.svg",
           "options": ["A) Rhombic sulfur cannot be sublimed without first converting to monoclinic sulfur.", "B) The conversion of rhombic sulfur to monoclinic sulfur is exothermic.", "C) Rhombic sulfur is denser than monoclinic sulfur.", "D) At atmospheric pressure, monoclinic sulfur cannot be in equilibrium with liquid sulfur."],
           "correctAnswer": "C",
-          "rationale": ""
+          "rationale": "The boundary between the rhombic and monoclinic regions slopes up and to the right. Rhombic is the phase on the high-pressure side of that line, meaning the upper-left region. Raising the pressure at a fixed temperature therefore converts monoclinic into rhombic. By Le Chatelier's principle, pressure favors the phase with the smaller volume, so rhombic has the smaller volume and the higher density."
         },
         {
           "id": 16,
@@ -579,7 +579,7 @@
           "image": "2020-18.svg",
           "options": ["A) 2", "B) 4", "C) 8", "D) 13"],
           "correctAnswer": "B",
-          "rationale": ""
+          "rationale": "Count the share of each atom that belongs to this one cell:\n\nCorners (white): 8 atoms, each shared among 8 cells, so 8 × ⅛ = 1.\nBody center (the white circle in the middle of the cell): 1 atom entirely inside, so 1.\nVertical faces (gray): 4 atoms, each shared between 2 cells, so 4 × ½ = 2.\n\nThe total is 1 + 1 + 2 = 4 atoms per unit cell."
         },
         {
           "id": 19,
@@ -608,7 +608,7 @@
           "image": "2020-22.svg",
           "options": ["A) 164 kJ mol–1", "B) 333 kJ mol–1", "C) 386 kJ mol–1", "D) 404 kJ mol–1"],
           "correctAnswer": "B",
-          "rationale": ""
+          "rationale": "Atomize ethane completely, C₂H₆(g) → 2 C(g) + 6 H(g). This breaks all 6 C–H bonds and the 1 C–C bond.\n\nStep 1: total enthalpy of atomization from the formation data.\nΔH = [2ΔH°f(C) + 6ΔH°f(H)] − ΔH°f(C₂H₆)\n= [2(718.4) + 6(217.9)] − (−84.7)\n= 1436.8 + 1307.4 + 84.7 = 2828.9 kJ mol⁻¹\n\nStep 2: subtract the C–H bonds.\n6 C–H bonds = 6 × 416 = 2496 kJ mol⁻¹\n\nStep 3: what remains is the C–C bond.\nC–C = 2828.9 − 2496 = 332.9 ≈ 333 kJ mol⁻¹\n\nThe other choices come from slips such as counting the wrong number of C–H bonds or skipping the −84.7 term."
         },
         {
           "id": 23,
@@ -661,7 +661,7 @@
           "image": "2020-29.svg",
           "options": ["A) A", "B) B", "C) C", "D) D"],
           "correctAnswer": "A",
-          "rationale": ""
+          "rationale": "Before time t the system is at equilibrium, so the forward and reverse rates are equal (the curves have merged). A catalyst lowers the activation energy of both directions by the same amount. Both rate constants are multiplied by the same factor, so the reverse rate must jump to the same higher level as the forward rate, and the curve will lie right on top of the solid one at the A level.\n\nThe equilibrium constant K = k_f/k_r is unchanged, so the system stays at equilibrium with forward rate = reverse rate. The catalyst only gets it there faster."
         },
         {
           "id": 30,
@@ -706,7 +706,7 @@
           "image": "2020-35.svg",
           "options": ["A) 5 mL", "B) 10 mL", "C) 20 mL", "D) 30 mL"],
           "correctAnswer": "D",
-          "rationale": ""
+          "rationale": "Where the steep rise is. The acid supplies 0.100 L × 0.100 M = 10.0 mmol, and each molecule has three acidic protons, so full neutralization takes 30.0 mmol of NaOH. At 0.500 M, that is 30.0 mmol ÷ 0.500 M = 60 mL. The three pKa values (3.1, 3.9, 4.7) are so close together that the three equivalence points merge into the single steep rise on the graph, which therefore sits at 60 mL.\n\nWhere V is. On the graph, V is about halfway along the horizontal axis to that steep rise, so it is about 30 mL. This is a visual estimate, since the graph has no volume scale.\n\nCheck. 30 mL of NaOH is 15.0 mmol, which is 1.5 equivalents per acid. That is the midpoint of the second deprotonation, where H₂A⁻ and HA²⁻ are present in equal amounts, so pH = pKa₂ = 3.9. This fits the flat buffer region of the curve.\n\nThe other volumes would put V too early: 5 mL and 10 mL are in the first deprotonation, and 20 mL is only about a third of the way to 60 mL."
         },
         {
           "id": 36,
@@ -737,7 +737,7 @@
           "image": "2020-39.svg",
           "options": ["A) I only", "B) II only", "C) Both I and II", "D) Neither I nor II"],
           "correctAnswer": "C",
-          "rationale": ""
+          "rationale": "A reaction is spontaneous under standard conditions when E°cell = E°(reduction) + E°(oxidation) is positive.\n\nReaction I: 2 Cu⁺ + Co → Co²⁺ + 2 Cu\n\nReduction: Cu⁺ + e⁻ → Cu, E° = +0.52 V\nOxidation: Co → Co²⁺ + 2 e⁻, E° = +0.28 V (the sign of the Co²⁺ half-reaction is flipped)\nE°cell = 0.52 + 0.28 = +0.80 V, so it is spontaneous.\n\nReaction II: 3 Co²⁺ + 2 In → 2 In³⁺ + 3 Co\n\nReduction: Co²⁺ + 2 e⁻ → Co, E° = −0.28 V\nOxidation: In → In³⁺ + 3 e⁻, E° = +0.34 V (the sign of the In³⁺ half-reaction is flipped)\nE°cell = −0.28 + 0.34 = +0.06 V, so it is also spontaneous, though only just.\n\nMultiplying half-reactions by coefficients to balance the electrons (2 and 3 in reaction II) does not change their E° values."
         },
         {
           "id": 40,
@@ -752,7 +752,7 @@
           "image": "2020-41.svg",
           "options": ["A) –164 kJ mol⁻¹", "B) –328 kJ mol⁻¹", "C) –401 kJ mol⁻¹", "D) –492 kJ mol⁻¹"],
           "correctAnswer": "B",
-          "rationale": ""
+          "rationale": "Build the overall reaction 2 O₃ → 3 O₂ from the two half-reactions:\n\nReduction (×2): 2 O₃ + 4 H⁺ + 4 e⁻ → 2 O₂ + 2 H₂O, E° = +2.08 V\nOxidation (reverse of the O₂ half-reaction): 2 H₂O → O₂ + 4 H⁺ + 4 e⁻, E° = −1.23 V\nSum: 2 O₃ → 3 O₂, with the H⁺, H₂O and electrons canceling\n\nThen:\n\nE°cell = 2.08 − 1.23 = +0.85 V\nn = 4 electrons transferred\nΔG° = −nFE° = −(4)(96485 C/mol)(0.85 V) = −3.28 × 10⁵ J = −328 kJ for the reaction as written\n\nMultiplying the ozone half-reaction by 2 does not change its E°, but it does set n = 4. The negative ΔG° shows that ozone converts spontaneously to O₂."
         },
         {
           "id": 42,
@@ -761,7 +761,7 @@
           "image": "2020-42.svg",
           "options": ["A) +0.884 V", "B) +0.984 V", "C) +1.084 V", "D) +1.120 V"],
           "correctAnswer": "D",
-          "rationale": ""
+          "rationale": "Step 1: overall reaction and E°.\n\nAnode (oxidation): Zn → Zn²⁺ + 2 e⁻, E° = +0.762 V\nCathode (reduction), ×2: 2 AgCl + 2 e⁻ → 2 Ag + 2 Cl⁻, E° = +0.222 V\nOverall: Zn + 2 AgCl → Zn²⁺ + 2 Ag + 2 Cl⁻, with n = 2\nE°cell = 0.222 + 0.762 = +0.984 V\n\nStep 2: reaction quotient.\nThe solids (Zn, AgCl, Ag) are left out, and the 2 in front of Cl⁻ becomes an exponent:\nQ = [Zn²⁺][Cl⁻]² = (1.0 × 10⁻⁴)(0.50)² = 2.5 × 10⁻⁵\n\nStep 3: Nernst equation.\nE = E° − (0.05916/n) log Q = 0.984 − (0.05916/2)(log 2.5 × 10⁻⁵)\n= 0.984 − 0.02958(−4.602) = 0.984 + 0.136 = +1.120 V\n\nThe cell potential is above E° because Q is much less than 1, with few products and many reactants, so the reaction is driven even harder than under standard conditions. Choice B (0.984 V) is just E° with no correction."
         },
         {
           "id": 43,
@@ -824,7 +824,7 @@
           "question": "Phosphorous acid, H₃PO₃, is a diprotic acid in aqueous solution (pK₁ = 2.0, pK₂ = 6.6).  Which Lewis structure best represents HPO₃²⁻?",
           "options": ["A) 2020-51-a.svg", "B) 2020-51-b.svg", "C) 2020-51-c.svg", "D) 2020-51-d.svg"],
           "correctAnswer": "C",
-          "rationale": ""
+          "rationale": "The structure needs three things:\n\nH on phosphorus, not oxygen. Phosphorous acid is diprotic even though it has three H atoms. Its structure is HP(O)(OH)₂, with one H bonded to P and only two acidic O–H groups. The P–H hydrogen doesn't ionize, so in HPO₃²⁻ the remaining H sits on phosphorus.\nThree oxygens bonded directly to P, with no O–O bonds.\nA total charge of −2.\n\nStructure C meets all three. As I read the picture, P is bonded to H and three O atoms, with each O carrying a negative charge and P carrying +1, so P has four single bonds and the formal charges add up to −2. The electron count is 1 (H) + 5 (P) + 18 (3 O) + 2 (charge) = 26, which matches 4 bonds (8 e⁻) plus 3 O⁻ with three lone pairs each (18 e⁻).\n\nThe other structures fail:\n\nA: it has an O–O–O chain, which phosphite does not have, and its charges add to 0 instead of −2.\nB: it has a peroxide-type O–O bond.\nD: the H is on oxygen (H–O–P), which would make a third acidic proton and contradict the diprotic behavior.\n\nI'm reading the structures from a small image, so check that C really shows three single-bonded O⁻ groups on P. If one of its oxygens is connected through another O, my reading of C is wrong."
         },
         {
           "id": 52,
@@ -832,7 +832,7 @@
           "image": "2020-52.svg",
           "options": ["A) All carbon-carbon bond distances are the same, and all carbon-oxygen bond distances are the same.", "B) There are two distinct carbon-carbon bond distances, but all carbon-oxygen bond distances are the same.", "C) There are two distinct carbon-carbon bond distances, and two distinct carbon-oxygen bond distances.", "D) There are three distinct carbon-carbon bond distances, and two distinct carbon-oxygen bond distances."],
           "correctAnswer": "A",
-          "rationale": ""
+          "rationale": "The structure drawn is only one of several resonance forms. It shows a C=C at the top, single C–C bonds on the other three sides, two C=O groups and two C–O⁻ groups. Other equivalent resonance forms place the double bonds and negative charges on different sides of the ring. The real ion is a resonance hybrid of all of these, so the π electrons are delocalized over the whole ring.\n\nThe squarate ion has a symmetric, square (D₄h) structure with these two features:\n\nCarbon–carbon: all four ring bonds are identical, with a bond order between 1 and 2.\nCarbon–oxygen: all four C–O bonds are identical, with a bond order between 1 and 2, and each oxygen carries an equal share of the −2 charge.\nChoices B, C and D each treat the one drawn structure as the real one. They count distinct bond lengths by the single and double bonds in that picture, but delocalization makes those differences vanish."
         },
         {
           "id": 53,
@@ -853,21 +853,21 @@
           "question": "Which compound is an ester?",
           "options": ["A) 2020-55-a.svg", "B) 2020-55-b.svg", "C) 2020-55-c.svg", "D) 2020-55-d.svg"],
           "correctAnswer": "A",
-          "rationale": ""
+          "rationale": "An ester has a carbonyl carbon (C=O) that is also single-bonded to an alkoxy oxygen, giving the group R–C(=O)–O–R′.\n\nA: The ring oxygen is directly bonded to a carbon that carries a C=O. That is an ester group inside a ring, called a lactone (here δ-valerolactone).\nB: The ring oxygen sits between two C=O carbons, which is O=C–O–C=O. That is an acid anhydride (glutaric anhydride), not an ester.\nC: The carbon next to the ring oxygen carries an OH. As drawn it has no carbonyl oxygen, so it is not an ester. It looks like a hemiacetal-type carbon, and the picture is small, so it is not fully clear.\nD: The ring oxygen and the C=O are on opposite sides of the ring and are not bonded to the same carbon. That is an ether plus a ketone (tetrahydropyran-4-one)."
         },
         {
           "id": 56,
           "question": "A pure substance is found to rotate the plane of plane-polarized light.  Which compound is it?",
           "options": ["A) 2020-56-a.svg", "B) 2020-56-b.svg", "C) 2020-56-c.svg", "D) 2020-56-d.svg"],
           "correctAnswer": "D",
-          "rationale": ""
+          "rationale": "A pure substance rotates plane-polarized light only if it is chiral, meaning it has no mirror plane or inversion center. In practice that usually means a stereocenter, and the wedge bond in D shows a single enantiomer is drawn.\n\nA, cyclohexane: it is highly symmetric and achiral.\nB, tetrahydropyran: it has a mirror plane through the ring oxygen and the opposite carbon, so it is achiral.\nC, 4-hydroxytetrahydropyran: the OH is on the carbon directly across the ring from the oxygen. A mirror plane passes through O and that carbon, so the two sides of the ring are identical. The carbon is not a stereocenter, and the molecule is achiral despite the wedge bond.\nD, 3-hydroxytetrahydropyran: the OH is on the carbon two positions from the oxygen (O, then CH₂, then C–OH). That carbon has four different groups: H, OH, a CH₂ that leads to the ring oxygen, and a CH₂ that leads to CH₂–CH₂. It is therefore a stereocenter, the molecule is chiral, and the pure enantiomer rotates plane-polarized light."
         },
         {
           "id": 57,
           "question": "Which structure best represents the sulfur-containing species produced in the reaction of (CH₃)₂S with CH₃I?",
           "options": ["A) 2020-57-a.svg", "B) 2020-57-b.svg", "C) 2020-57-c.svg", "D) 2020-57-d.svg"],
           "correctAnswer": "B",
-          "rationale": ""
+          "rationale": "The trimethylsulfonium ion, (CH₃)₃S⁺.\n\nDimethyl sulfide is a good nucleophile because sulfur has lone pairs. Methyl iodide is a good electrophile, since the C–I bond is polarized and iodide is an excellent leaving group. The reaction is an SN2 substitution:\n\n(CH₃)₂S + CH₃–I → (CH₃)₃S⁺ + I⁻\n\nA lone pair on sulfur attacks the CH₃ carbon and iodide leaves. The product is the salt trimethylsulfonium iodide, and the sulfur-containing species is the cation. Sulfur now has three C–S bonds and one lone pair, so it is trigonal pyramidal, and its formal charge is +1 (6 valence e⁻ − 2 nonbonding e⁻ − 3 bonds = +1). Structure B shows exactly this.\n\nThe other structures don't fit:\n\nA: CH₃–S–I would need S to substitute for iodine in a way that doesn't occur, and the picture ignores the second methyl.\nC: a sulfur with CH₃, CH₃ and I attached as a cation implies iodine stays covalently bonded to S, but iodide leaves as the free ion I⁻.\nD: it shows three groups on S including I with no charge, which does not match this reaction."
         },
         {
           "id": 58,
@@ -881,7 +881,7 @@
           "question": "Which compound reacts the fastest in electrophilic aromatic substitution reactions (such as with Br₂ in the presence of FeBr₃)?",
           "options": ["A) 2020-59-a.svg", "B) 2020-59-b.svg", "C) 2020-59-c.svg", "D) 2020-59-d.svg"],
           "correctAnswer": "C",
-          "rationale": ""
+          "rationale": "anisole (methoxybenzene).\n\nIn electrophilic aromatic substitution the ring attacks the electrophile, so the more electron-rich the ring, the faster the reaction. Substituents that donate electrons activate the ring, and substituents that withdraw electrons deactivate it.\n\nC, –OCH₃: this is a strong activator. Oxygen's lone pair donates into the ring by resonance, which outweighs its inductive electron withdrawal, so it stabilizes the cationic intermediate (the arenium ion) the most. Anisole reacts much faster than benzene.\nA, –CH₃: a weak activator that donates by induction and hyperconjugation. It reacts faster than benzene, but much slower than anisole.\nD, –Br: a weak deactivator. Its inductive withdrawal slows the reaction compared with benzene, although its lone pairs still make it an ortho/para director.\nB, –NO₂: a strong deactivator. It withdraws electrons by both induction and resonance, so nitrobenzene reacts much more slowly than benzene.\n\nThe order of reactivity is anisole > toluene > bromobenzene > nitrobenzene, so C reacts fastest."
         },
         {
           "id": 60,
@@ -986,7 +986,7 @@
           "image": "2021-13.svg",
           "options": ["A) Solid", "B) Liquid", "C) Gas", "D) Plasma"],
           "correctAnswer": "B",
-          "rationale": ""
+          "rationale": "The molecules sit close together, nearly touching, but in a disordered arrangement with no repeating pattern. They all have velocity arrows pointing in different directions, so they are moving and sliding past one another. The group also collects at the bottom of the container, leaving the rest of the space empty, so the substance has a definite volume and takes the shape of the lower part of the container.\n\nThe other choices don't fit:\n\nSolid: the particles would be locked in an ordered lattice and only vibrate in place.\nGas: the molecules would be far apart and spread through the whole container, not packed at the bottom.\nPlasma: it consists of ions and free electrons, not intact molecules, and it forms at very high temperatures."
         },
         {
           "id": 14,
@@ -1022,7 +1022,7 @@
           "image": "2021-18.svg",
           "options": ["A) Cu₂O", "B) CuO", "C) Cu₃O₂", "D) Cu₄O₉"],
           "correctAnswer": "A",
-          "rationale": ""
+          "rationale": "Count the share of each atom that belongs to this one unit cell:\n\nO (white): 8 corner atoms, each shared among 8 cells, so 8 × ⅛ = 1. One more O sits at the body center and is fully inside the cell, so 1. The total is 2 O.\nCu (black): 4 atoms sit fully inside the cell, so 4 Cu.\n\nThat gives Cu₄O₂, which reduces to the simplest formula Cu₂O. This is the mineral cuprite.\n\nThe other choices come from miscounting. CuO (B) comes from counting only the corner and body-center O atoms as one atom each. Cu₃O₂ and Cu₄O₉ (C and D) come from treating every white circle as a whole atom, with no sharing between cells."
         },
         {
           "id": 19,
@@ -1054,11 +1054,11 @@
         },
         {
           "id": 23,
-          "question": "The gas-phase bromination of propene has a standard enthalpy of reaction of −122.5 kJ mol⁻¹.\nC₃H₆(g) + Br₂(g) → C₃H₆Br₂(g)\nΔH° = −122.5 kJ mol⁻¹\nWhat is the standard enthalpy of formation of C₃H₆Br₂(g)?",
+          "question": "The gas-phase bromination of propene has a standard enthalpy of reaction of −122.5 kJ mol⁻¹.\n     C₃H₆(g) + Br₂(g) → C₃H₆Br₂(g)\n           ΔH° = −122.5 kJ mol⁻¹\nWhat is the standard enthalpy of formation of C₃H₆Br₂(g)?",
           "image": "2021-23.svg",
           "options": ["A) −71.2 kJ mol⁻¹", "B) −102.1 kJ mol⁻¹", "C) −142.9 kJ mol⁻¹", "D) −173.8 kJ mol⁻¹"],
           "correctAnswer": "A",
-          "rationale": ""
+          "rationale": "Use ΔH°rxn = ΣΔH°f(products) − ΣΔH°f(reactants) and let x = ΔH°f(C₃H₆Br₂):\n\n−122.5 = x − [ΔH°f(C₃H₆) + ΔH°f(Br₂(g))]\n\n−122.5 = x − (20.4 + 30.9)\n−122.5 = x − 51.3\n\nx = −122.5 + 51.3 = −71.2 kJ mol⁻¹\n\nNote that Br₂(g) is not the standard state of bromine, which is Br₂(l), so its ΔH°f is not zero. That is why the table gives 30.9 kJ mol⁻¹ for it.\n\nChoice D (−173.8 kJ mol⁻¹) comes from subtracting the reactant values the wrong way, and C (−142.9 kJ mol⁻¹) comes from leaving out the Br₂(g) value and using only the 20.4 kJ mol⁻¹ for propene."
         },
         {
           "id": 24,
@@ -1150,7 +1150,7 @@
           "image": "2021-36.svg",
           "options": ["A) 2.6, 5.0, 8.2", "B) 3.8, 6.6, 10.6", "C) 3.8, 8.2, 12.7", "D) 5.0, 8.2, 12.7"],
           "correctAnswer": "A",
-          "rationale": ""
+          "rationale": "The pKa of each proton equals the pH at its half-equivalence point, where the acid and its conjugate base are present in equal amounts (Henderson–Hasselbalch with log 1 = 0).\n\nStep 1: find the equivalence points. The three steep rises occur at about 10, 20 and 30 mL of NaOH. These are evenly spaced, since each proton takes the same amount of base.\n\nStep 2: find the half-equivalence points. These sit halfway to each equivalence point, at 5, 15 and 25 mL.\n\nStep 3: read the pH at each of those volumes.\n\nAt 5 mL, pH ≈ 2.6, so pKa₁ ≈ 2.6.\nAt 15 mL, pH ≈ 5.0, so pKa₂ ≈ 5.0.At 25 mL, pH ≈ 8.2, so pKa₃ ≈ 8.2.\n\nChoice B (3.8, 6.6, 10.6) is the trap. Those are the pH values at the equivalence points, at 10, 20 and 30 mL, not at the half-equivalence points. Choices C and D include values near pH 12.7, which is the pH at the end of the titration, in excess NaOH, not a pKa. These graph readings are approximate, since the plot has no finer scale."
         },
         {
           "id": 37,
@@ -1180,7 +1180,7 @@
           "image": "2021-40.svg",
           "options": ["A) −0.74 V", "B) −1.32 V", "C) −1.73 V", "D) −2.23 V"],
           "correctAnswer": "A",
-          "rationale": ""
+          "rationale": "Reduction potentials can't be added directly when the number of electrons differs, but free energies can. Cr³⁺ → Cr is the sum of two steps, Cr³⁺ → Cr²⁺ and Cr²⁺ → Cr, so add the ΔG° values, using ΔG° = −nFE°.\n\nFor Cr³⁺ + e⁻ → Cr²⁺, I used E° = −0.41 V, the literature value, rather than the +0.41 V the table appears to show, for the reason below.\n\nStep 1: Cr³⁺ + e⁻ → Cr²⁺, n = 1, E° = −0.41 V, so ΔG° = +0.41F.\nStep 2: Cr²⁺ + 2 e⁻ → Cr, n = 2, E° = −0.91 V, so ΔG° = +1.82F.\nTotal: Cr³⁺ + 3 e⁻ → Cr, n = 3, so ΔG° = +2.23F.\n\nSetting 2.23F = −3F·E° gives E° = −2.23/3 = −0.743 V, or −0.74 V.\n\nEquivalently, E° = (n₁E₁ + n₂E₂)/(n₁ + n₂) = (1(−0.41) + 2(−0.91))/3 = −0.74 V.\n\nThe table as shown. The first row appears to read +0.41 V, but with +0.41 the same calculation gives −0.47 V, which isn't among the choices. The listed answers fit −0.41 V, which is the accepted value for Cr³⁺/Cr²⁺, so the plus sign in the table is probably a typo.\n\nChoice D (−2.23 V) comes from adding the numerators and forgetting to divide by 3."
         },
         {
           "id": 41,
@@ -1188,7 +1188,7 @@
           "image": "2021-41.svg",
           "options": ["A) 1.9 × 10⁻⁴", "B) 73", "C) 5300", "D) 1.9 × 10⁷"],
           "correctAnswer": "B",
-          "rationale": ""
+          "rationale": "Split the disproportionation 2 UO₂⁺ + 4 H⁺ → UO₂²⁺ + U⁴⁺ + 2 H₂O into two half-reactions. One UO₂⁺ is oxidized and the other is reduced.\n\nOxidation: UO₂⁺ → UO₂²⁺ + e⁻. This is the reverse of the first half-reaction, so E° = −0.16 V.\nReduction: UO₂⁺ + 4 H⁺ + e⁻ → U⁴⁺ + 2 H₂O, E° = +0.27 V.\nOverall: E°cell = 0.27 − 0.16 = +0.11 V, with n = 1 electron transferred.\n\nThen:\n\nln K = nFE°/RT = (1)(96485)(0.11) ÷ [(8.314)(298)] = 4.28\nK = e^4.28 ≈ 73 (equivalently log K = 0.11/0.05916 = 1.86, so K ≈ 72 to 73)\n\nK is greater than 1 because E°cell is positive, so UO₂⁺ is unstable toward disproportionation in acid. A and C don't have the right sign or size. A would need a negative E°cell. D (about 10⁷) would need a much larger voltage, around 0.4 V."
         },
         {
           "id": 42,
@@ -1210,7 +1210,7 @@
           "image": "2021-44.svg",
           "options": ["A) Al", "B) Si", "C) P", "D) S"],
           "correctAnswer": "B",
-          "rationale": ""
+          "rationale": "Silicon.\n\nThe number of valence electrons shows up as the position of the big jump in successive ionization energies, because the first electron taken from a new inner shell costs far more energy.\n\nIE₁ to IE₄ rise gradually: 786.5, 1577.1, 3231.6, 4355.5.\nThe jump comes between IE₄ and IE₅: 4355.5 → 16091, about 3.7 times larger.\n\nThat means 4 valence electrons are removed easily, and the fifth comes from an inner shell. A period 3 element with 4 valence electrons is in group 14, which is silicon (3s²3p²).\n\nThe first ionization energy of 786.5 kJ mol⁻¹ also matches silicon. The other candidates would show the jump at a different place:\n\nAl (3 valence e⁻): the jump would come after IE₃.\nP (5 valence e⁻): the jump would come after IE₅, with an IE₁ of about 1012.\nS (6 valence e⁻): the jump would come after IE₆, with an IE₁ of about 1000."
         },
         {
           "id": 45,
@@ -1273,7 +1273,7 @@
           "question": "Which structure best depicts the three-dimensional shape of the P₄ molecule?",
           "options": ["A) 2021-53-a.svg", "B) 2021-53-b.svg", "C) 2021-53-c.svg", "D) 2021-53-d.svg"],
           "correctAnswer": "D",
-          "rationale": ""
+          "rationale": "The tetrahedral P₄ molecule.\n\nEach phosphorus atom has 5 valence electrons. To reach an octet it forms three single bonds and keeps one lone pair. The only way four P atoms can each make exactly three P–P bonds is for every atom to bond to all three others, which gives a tetrahedron with six P–P bonds. Structure D shows this.\n\nThe other structures leave some phosphorus atoms short of three bonds:\n\nA: an open chain. The terminal P atoms have only one bond each.\nB: a flat square ring. Each P has only two bonds, so it would need P=P double bonds, which are weak between large atoms like phosphorus.\nC: a branched arrangement. Only one P has three bonds, and the other three have just one bond each.\n\nThe tetrahedral P₄ molecule has 60° P–P–P bond angles, far from the ideal 109.5° for a P with three bonds and a lone pair. This ring strain makes white phosphorus (P₄) very reactive, and it ignites in air."
         },
         {
           "id": 54,
@@ -1294,8 +1294,8 @@
           "question": "What is the relationship between the two compounds shown?",
           "image":"2021-56.svg",
           "options": ["A) Identical", "B) Structural isomers", "C) Geometric isomers", "D) Mirror image isomers"],
-          "correctAnswer": "C",
-          "rationale": ""
+          "correctAnswer": "A",
+          "rationale": "Both drawings show 1,3-dichlorocyclopentane, with the two Cl atoms on carbons separated by one CH₂ group. In the left drawing that CH₂ is at the top of the ring, and in the right drawing it is at the bottom. In both drawings, both Cl atoms are on wedge bonds, so both point toward the viewer. They are on the same face of the ring, so each drawing is the cis isomer.\n\nRotating or flipping one ring in the plane of the page makes it superimpose on the other, so they are the same compound.\n\nB, structural isomers: these would have different connectivity, such as 1,2- versus 1,3-dichloro. Here both are 1,3.\nC, geometric isomers: these would be one cis and one trans. Both drawings are cis.\nD, mirror image isomers: cis-1,3-dichlorocyclopentane has an internal mirror plane through C2 and the midpoint of the C4–C5 bond, so it is achiral and its mirror image is the same molecule. There are no enantiomers to draw."
         },
         {
           "id": 57,
@@ -1316,7 +1316,7 @@
           "question": "Which conformation of cyclohexane (C₆H₁₂) is most stable?",
           "options": ["A) 2021-59-a.svg", "B) 2021-59-b.svg", "C) 2021-59-c.svg", "D) 2021-59-d.svg"],
           "correctAnswer": "B",
-          "rationale": ""
+          "rationale": "The chair conformation.\n\nI'm reading these from small line drawings, so this is my identification of each shape:\n\nA: boat. Both end carbons point up, like a bathtub.\nB: chair. One end carbon points up and the opposite end points down.\nC: half-chair. Four carbons are roughly in a plane, with one carbon above and one below.\nD: a nearly flat hexagon, with no real puckering.\n\nThe chair is the most stable conformation of cyclohexane for these reasons:\n\nThe C–C–C bond angles are about 111°, very close to the ideal tetrahedral 109.5°, so there is almost no angle strain.\nEvery C–H bond on adjacent carbons is staggered, so there is no torsional strain.\nNo hydrogens are crowded together, whereas the boat has flagpole hydrogens pointing at each other across the ring.\n\nApproximate energies relative to the chair are 23 kJ mol⁻¹ for the twist-boat, 29 kJ mol⁻¹ for the boat, and 45 kJ mol⁻¹ for the half-chair. A fully flat ring would have 120° bond angles and eclipsed hydrogens, so it isn't a real conformation of cyclohexane at all."
         },
         {
           "id": 60,
@@ -1350,7 +1350,7 @@
           "question": "A gas mixture contains 50 mol% H₂ and 50 mol% He. 1.00-L samples of this gas mixture are mixed with variable volumes of O₂ (at 0 °C and 1 atm). A spark is introduced to allow the mixture to undergo complete combustion. The final volume is measured at 0 °C and 1 atm. Which graph best depicts the final volume as a function of the volume of added O₂?",
           "options": ["A) 2022-3-a.svg", "B) 2022-3-b.svg", "C) 2022-3-c.svg", "D) 2022-3-d.svg"],
           "correctAnswer": "D",
-          "rationale": ""
+          "rationale": "A 1.00 L sample of the mixture contains 0.50 L of H₂ and 0.50 L of He. The helium doesn't react. The reaction is 2 H₂ + O₂ → 2 H₂O. At 0 °C the water condenses to a liquid (or ice), so it takes up essentially no gas volume. Gas volumes at the same T and P are proportional to moles, so the final gas volume can be found from the volumes directly.\n\nO₂ added below 0.25 L (O₂ is limiting).\n\nEach 1 L of O₂ consumes 2 L of H₂, so 2V L of H₂ react.\nThe gas left is He (0.50 L) plus the unreacted H₂ (0.50 − 2V L).\nFinal volume = 1.00 − 2V, which falls linearly from 1.00 L to 0.50 L at V = 0.25 L.\n\nO₂ added at exactly 0.25 L. All of the H₂ is used up, and only the 0.50 L of He remains, giving the minimum of 0.50 L.\n\nO₂ added above 0.25 L (H₂ is limiting).\n\nAll the H₂ has reacted, and the extra O₂ is left over (V − 0.25 L).\nFinal volume = 0.50 + (V − 0.25) = 0.25 + V, which rises linearly with slope +1.\nThis gives 0.75 L at V = 0.50, 1.00 L at V = 0.75, and 1.25 L at V = 1.00.\n\nThe curve therefore starts at 1.00 L, drops to 0.50 L at 0.25 L of O₂, and then rises to 1.25 L at 1.00 L of O₂. That is graph D.\n\nThe others fail for these reasons:\n\nA: it rises from the start, as if the gas volume only grew.\nB and C: their minimums are at 0.50 L of O₂, which would be right if the mixture were 100% H₂ or if the reaction used 1 L of H₂ per 1 L of O₂."
         },
         {
           "id": 4,
@@ -1394,7 +1394,7 @@
           "image": "2022-9.svg",
           "options": ["A) 1.20 mL", "B) 1.26 mL", "C) 2.74 mL", "D) 2.80 mL"],
           "correctAnswer": "B",
-          "rationale": ""
+          "rationale": "Direction of the scale. On a buret the numbers increase downward. The liquid level is just below the 1.0 mark, well above 2.0, so the reading is 1.something. That rules out C (2.74) and D (2.80).\n\nWhere to read. Read at the bottom of the meniscus, not at the edges where the curve climbs the glass. The graduations are every 0.1 mL, with the longer lines at the whole numbers and the middle-length line at 1.5. The edges of the meniscus meet the 1.2 line, but the bottom of the curve sits a little below it, about 0.6 of the way down to the 1.3 line.\n\nRecording it. A buret is read to one more digit than its marks, by estimating between two lines. So the reading is 1.2 plus about 0.06 mL, which gives 1.26 mL.\n\nChoice A (1.20 mL) is what you get by reading the meniscus at its edge, where it touches the 1.2 line, instead of at its bottom. Choice A is a reading to the nearest line and leaves off the estimated digit, so it is less precise than a buret allows."
         },
         {
           "id": 10,
@@ -1429,7 +1429,7 @@
           "question": "Which isomer of C₄H₈O₂ has the greatest solubility in water?",
           "options": ["A) 2022-14-a.svg", "B) 2022-14-b.svg", "C) 2022-14-c.svg", "D) 2022-14-d.svg"],
           "correctAnswer": "A",
-          "rationale": ""
+          "rationale": "but-2-ene-1,4-diol (HOCH₂–CH=CH–CH₂OH).\n\nChoice D is a close second, and the two aren't clearly different in practice.\n\nAll four are isomers of C₄H₈O₂. Solubility in water depends on how well a molecule can hydrogen bond with water compared with the size of its hydrocarbon part.\n\nA, the diol: it has two –OH groups, and each one can both donate and accept hydrogen bonds. Its hydrocarbon part is small, so it interacts very strongly with water and is the most soluble.\nD, butanoic acid: –COOH can also donate and accept hydrogen bonds, but it has only one such group and a propyl chain that is hydrophobic. Butanoic acid is highly soluble, in fact miscible, but it is a little less water-loving than the diol.\nB, ethyl acetate: an ester has no O–H, so it can only accept hydrogen bonds from water. Its solubility is moderate, about 8 g per 100 mL.\nC, isopropyl formate: it is also an ester that can only accept hydrogen bonds, and its branched alkyl group makes it even less soluble than B.\n\nThe answer rests on the intended reasoning (more hydrogen-bonding sites per molecule), and A is the choice that reasoning picks."
         },
         {
           "id": 15,
@@ -1451,7 +1451,7 @@
           "image": "2022-17.svg",
           "options": ["A) Monoclinic sulfur sublimes at 1 atm pressure while rhombic sulfur does not.", "B) Rhombic sulfur is less dense than monoclinic sulfur.", "C) At temperatures above 119 °C, monoclinic sulfur cannot exist at equilibrium.", "D) The conversion of rhombic sulfur to monoclinic sulfur is endothermic."],
           "correctAnswer": "D",
-          "rationale": ""
+          "rationale": "At 1 atm, heating rhombic sulfur takes it across the boundary into the monoclinic region at about 114 °C. Higher temperature favors monoclinic, and by Le Chatelier's principle higher temperature favors the endothermic direction. So rhombic → monoclinic absorbs heat. The positive slope of the boundary agrees with this.\n\nThe other choices fail for these reasons:\n\nA: At 1 atm, the horizontal line across the diagram passes through rhombic, monoclinic, then liquid at about 119 °C, and finally gas at 445 °C. Neither solid form goes straight to gas at 1 atm, so neither sublimes there.\nB: The rhombic–monoclinic boundary slopes up and to the right, so rhombic sits on the high-pressure side. Pressure favors the denser phase, so rhombic is more dense than monoclinic, not less.\nC: 119 °C is only the melting point of monoclinic sulfur at low pressure. The monoclinic–liquid boundary keeps rising with pressure, up to the triple point labeled 151 °C and 1288 atm. At elevated pressures, monoclinic sulfur can therefore exist at equilibrium at temperatures above 119 °C, up to 151 °C."
         },
         {
           "id": 18,
@@ -1490,7 +1490,7 @@
           "image": "2022-22.svg",
           "options": ["A) 308 kJ mol⁻¹", "B) 329 kJ mol⁻¹", "C) 423 kJ mol⁻¹", "D) 924 kJ mol⁻¹"],
           "correctAnswer": "A",
-          "rationale": ""
+          "rationale": "Use ΔH = Σ(BDE of bonds broken) − Σ(BDE of bonds formed).\n\nCount the bonds.\n\nCyclopropane has 6 C–H bonds and 3 C–C single bonds.\nPropene (CH₂=CH–CH₃) has 6 C–H bonds, 1 C=C bond and 1 C–C bond.\n\nThe six C–H bonds are broken and re-formed with the same BDE, so they cancel.\n\nSet up the equation. Let x = the C–C BDE in cyclopropane.\n\nBonds broken: 3 C–C, which is 3x.\nBonds formed: C=C (611) + C–C (345) = 956 kJ mol⁻¹.\nΔH = 3x − 956 = −32\n\n3x = 924, so x = 308 kJ mol⁻¹.\n\nThat is lower than the 345 kJ mol⁻¹ of an ordinary C–C bond, which fits the strain in cyclopropane's 60° ring angles.\n\nChoice D (924 kJ mol⁻¹) is the value of 3x, the total for all three bonds, so it skips the final division by 3.\n\nThe label under the product says propane, but the structure is propene. The ΔH° unit is also printed as kJ mol L⁻¹. Neither affects the answer."
         },
         {
           "id": 23,
@@ -1505,7 +1505,7 @@
           "question": "Which reaction has ΔS°₍rxn₎ > 0? All reactants and products are liquids.",
           "options": ["A) 2022-24-a.svg", "B) 2022-24-b.svg", "C) 2022-24-c.svg", "D) 2022-24-d.svg"],
           "correctAnswer": "B",
-          "rationale": ""
+          "rationale": "Cyclopentane → 1-pentene.\n\nEntropy rises when the system gains disorder, either from more particles or from more freedom of motion. All species here are liquids, so the question is decided by the number of molecules and by how free each molecule is to move.\n\nB: A ring opens into a flexible chain. Cyclopentane is a rigid ring with very few accessible conformations. 1-Pentene has free rotation about several C–C bonds, so many more arrangements are possible. The number of molecules stays at one, but the molecular freedom increases, so ΔS° > 0.\nA: Two molecules (an alkene and Br₂) combine into one (a dibromoalkane). The number of particles falls, so ΔS° < 0.\nC: One flexible diene closes into a bicyclic ring. The rotating chain becomes a rigid ring system, so the number of arrangements falls and ΔS° < 0.\nD: This is a Diels–Alder reaction between a diene and a dienophile (maleic anhydride) to give one cyclic product. Two molecules become one, and a rigid ring forms, so ΔS° < 0.\n\nReactions that join molecules or form rings lose entropy, and reactions that open rings gain it, so B is the only one with a positive ΔS°."
         },
         {
           "id": 25,
@@ -1592,7 +1592,7 @@
           "image":"2022-36.svg",
           "options": ["A) Potassium cyanide, KCN (M = 65.12, pKₐ of HCN = 9.2)", "B) Sodium nitrite, NaNO₂ (M = 69.00, pKₐ of HNO₂ = 3.4)", "C) Potassium phenoxide, K(C₆H₅O) (M = 116.20, pKₐ of C₆H₅OH = 9.9)", "D) Sodium pivalate, Na(C₄H₉COO) (M = 124.11, pKₐ of C₄H₉COOH = 4.9)"],
           "correctAnswer": "C",
-          "rationale": ""
+          "rationale": "The curve gives two clues: where the steep drop falls, and how high the pH starts.\n\n1. Equivalence volume. The steep drop is at about 17 mL of 0.500 M HCl, which is about 8.4 mmol of acid. The salt reacts 1:1 with HCl, so 1.000 g must contain about 8.4 mmol of salt. For each choice, V = (1.000 g ÷ M) ÷ 0.500 M:\n\nSalt                 Moles in 1.000 g                 Volume of HCl needed\nKCN                    0.01536                                 30.7 mL\nNaNO₂                0.01449                                 29.0 mL\nK phenoxide        0.00861                                 17.2 mL\nNa pivalate          0.00806                                 16.1 mL\n\nThis rules out KCN and NaNO₂, which would need about 30 mL. Phenoxide and pivalate are both close to the graph, so the second clue decides it.\n\n2. Starting pH. The curve starts at pH of about 11.5 to 12, so the anion is a fairly strong base. An anion of a weak acid with pKa 9.9 fits (pH ≈ 7 + ½[pKa + log C] ≈ 11.5 for about 0.17 M). Pivalate, the anion of an acid with pKa 4.9, would start near pH 9.\n\n3. Half-equivalence check. At half the equivalence volume (about 8.5 mL), pH = pKa of the conjugate acid. The curve is near pH 10 there, matching phenol's pKa of 9.9. Pivalate would show pH 4.9.\n\nReading values off the small graph is approximate. The pH check is what separates C from D, since their equivalence volumes differ by only about 1 mL."
         },
         {
           "id": 37,
@@ -1615,7 +1615,7 @@
           "image":"2022-39.svg",
           "options": ["A) I only", "B) II only", "C) Both I and II", "D) Neither I nor II"],
           "correctAnswer": "B",
-          "rationale": ""
+          "rationale": "Statement II is true. The anode is where oxidation happens, and the metal with the lower (more negative) reduction potential is the one oxidized. Indium (−0.34 V) is lower than cobalt on either reading of the table, so In is oxidized and is the anode.\n\nAnode: In → In³⁺ + 3 e⁻\nCathode: Co²⁺ + 2 e⁻ → Co\n\nStatement I is false. E°cell = E°(cathode) − E°(anode), and the coefficients used to balance the electrons (×2 and ×3) don't change it.\n\nWith the table as printed (Co²⁺/Co = +0.28 V): E°cell = 0.28 − (−0.34) = 0.62 V.\nIf the Co²⁺/Co value is −0.28 V, which is its usual value and the one used in the earlier question with Co²⁺ and In: E°cell = −0.28 − (−0.34) = 0.06 V.\n\nNeither calculation gives 0.46 V, so statement I is wrong either way. The answer is B no matter which value is intended for cobalt."
         },
         {
           "id": 40,
@@ -1756,7 +1756,7 @@
           "image":"2022-59.svg",
           "options": ["A) 2022-59-a.svg", "B) 2022-59-b.svg", "C) 2022-59-c.svg", "D) The diol shown is achiral and does not have an enantiomer"],
           "correctAnswer": "A",
-          "rationale": ""
+          "rationale": "The diol shown is chiral. It is 2,3-butanediol with both OH groups on wedge bonds in a zigzag drawing. Assigning CIP labels gives (2S,3S):\n\nAt C2, the priority order is OH > C3 > C1 > H, with H pointing away. OH, C3, C1 runs counterclockwise, so S.\nAt C3, the priority order is OH > C2 > C4 > H, with H pointing away. OH, C2, C4 also runs counterclockwise, so S.\n\nA (2S,3S) compound has an enantiomer, which is (2R,3R). That rules out D. A meso form would be (2R,3S), and this isn't it.\n\nChecking each choice:\n\nA: the zigzag is flipped top to bottom, with both OH groups still on wedges. Reflecting the structure across a horizontal line in the page turns it into its mirror image and keeps the wedges as wedges. Both centers come out R, so it is (2R,3R), the enantiomer.\nB: this is the folded (eclipsed) drawing with both OH groups on hashed bonds. It has an internal mirror plane and works out to (2S,3R), the meso diastereomer, which is not the enantiomer.\nC: the Newman projection works out to (S,S), the same compound as the one shown but in a staggered conformation. This reading assumes the top, lower-left and lower-right bonds belong to the front carbon, and the picture is small, so check that assumption.\nD: it is wrong, because the diol is chiral.\n\nI'm reading wedge versus hash bonds from small drawings, so confirm that both bonds in A are solid wedges."
         },
         {
           "id": 60,
