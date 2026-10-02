@@ -2589,7 +2589,7 @@
           "question": "Which is the best representation of the three-dimensional arrangement of the atoms in nitramide, H₂NNO₂?",
           "options": ["A) 2024-53-a.svg", "B) 2024-53-b.svg", "C) 2024-53-c.svg", "D) 2024-53-d.svg"],
           "correctAnswer": "A",
-          "rationale": ""
+          "rationale": "Nitramide is H₂N–NO₂. The nitro nitrogen has three electron domains (the N–N bond and two N–O bonds, which are equivalent by resonance) and no lone pair, so it is trigonal planar. By simple VSEPR the amino nitrogen, with its lone pair, would be pyramidal. However, that lone pair is delocalized into the strongly electron-withdrawing nitro group, just as the nitrogen lone pair is in an amide (H₂N–NO₂ ↔ H₂N⁺=N(O⁻)–O). This gives the N–N bond partial double-bond character (bond order between 1 and 2) and flattens the amino nitrogen, so the whole molecule is planar. The two H atoms, both N atoms and both O atoms lie in a single plane, which is the all-flat structure in choice A. Choice B is only a connectivity sketch with right-angle bonds. Choice C shows a pyramidal NH₂, which treats the lone pair as localized. Choice D shows the nitro group as non-planar, but a nitro group is planar."
         },
         {
           "id": 54,
@@ -2603,22 +2603,22 @@
           "question": "What is the relationship between these two molecules?",
           "image" :"2024-55.svg",
           "options": ["A) Identical", "B) Enantiomers", "C) Diastereomers", "D) Structural isomers"],
-          "correctAnswer": "D",
-          "rationale": ""
+          "correctAnswer": "B",
+          "rationale": "Both drawings show 1,2,3-trichloropentane, ClCH₂–CHCl–CHCl–CH₂–CH₃. The two drawings have the same constitution, so D is out. The molecule has two stereocenters (C2 and C3), so the question is whether the right-hand drawing is superimposable on the left or is its mirror image.\n\nReflection check. Flip the left drawing across a vertical line. The ClCH₂ end moves to the left and the CH₃ end to the right, and each wedge stays a wedge. That produces exactly the right-hand drawing, so the right molecule is the mirror image of the left one. The two ends of the chain are different (CH₂Cl versus CH₂CH₃), so the molecule has no internal mirror plane, and a mirror image that is not the same compound must be an enantiomer.\n\nCIP check. For each stereocenter the priorities are Cl > the neighboring CHCl carbon > the other carbon > H, with H pointing away from the viewer in both drawings:\n\nLeft molecule: both centers read clockwise, so it is (2R,3R).\nRight molecule: both centers read counterclockwise, so it is (2S,3S).\n\nEvery center is inverted, which is exactly the relationship between enantiomers."
         },
         {
           "id": 56,
           "question": "Which is the strongest acid?",
           "options": ["A) 2024-56-a.svg", "B) 2024-56-b.svg", "C) 2024-56-c.svg", "D) 2024-56-d.svg"],
           "correctAnswer": "A",
-          "rationale": ""
+          "rationale": "Fluoroacetic acid (FCH₂COOH).\n\nAll four are haloacetic acids, X–CH₂–COOH, differing only in the halogen. The acid strength depends on how well the carboxylate anion (X–CH₂–COO⁻) is stabilized after the proton leaves. A more electronegative halogen pulls electron density through the σ bonds (the inductive effect), which spreads out the negative charge on the carboxylate and stabilizes it. A more stable conjugate base means a stronger acid.\n\nElectronegativity falls in the order F > Cl > Br > I, so the inductive effect and the acid strength fall in the same order. The approximate pKa values are:\n\nAcid                    pKa\nFCH₂COOH         2.6\nClCH₂COOH        2.9\nBrCH₂COOH        2.9\nICH₂COOH           3.2\n\nFluoroacetic acid has the lowest pKa, so it is the strongest acid. For comparison, unsubstituted acetic acid has a pKa of 4.76, so every halogen makes the acid stronger."
         },
         {
           "id": 57,
           "question": "Which molecule is not aromatic?",
           "options": ["A) 2024-57-a.svg", "B) 2024-57-b.svg", "C) 2024-57-c.svg", "D) 2024-57-d.svg"],
           "correctAnswer": "C",
-          "rationale": ""
+          "rationale": "Cyclopentadiene.\n\nA molecule is aromatic only if it is cyclic, planar, fully conjugated (every ring atom has a p orbital), and has 4n + 2 π electrons (Hückel's rule).\n\nA, benzene: 6 π electrons, fully conjugated. Aromatic.\nB, pyridine: 6 π electrons from three C=C/C=N π bonds. The nitrogen's lone pair sits in an sp² orbital in the plane of the ring and is not part of the π system. Aromatic.\nC, cyclopentadiene: it has two C=C double bonds (4 π electrons) and one sp³ CH₂ carbon. The sp³ carbon has no p orbital, so the conjugation is interrupted and the ring is not fully conjugated. It also doesn't meet 4n + 2. It is not aromatic.\nD, thiophene: the two C=C bonds provide 4 π electrons, and one of sulfur's lone pairs sits in a p orbital that joins the ring's π system, giving 6 π electrons. Aromatic.\n\nCyclopentadiene becomes aromatic if the CH₂ loses a proton. The resulting cyclopentadienyl anion has a p orbital on every carbon and 6 π electrons, which explains why cyclopentadiene is unusually acidic (pKa about 16)."
         },
         {
           "id": 58,
@@ -2640,7 +2640,7 @@
           "image" :"2024-60.svg",
           "options": ["A) I only", "B) II only", "C) Both I and II", "D) Neither I nor II"],
           "correctAnswer": "C",
-          "rationale": ""
+          "rationale": "This is the Fischer glycosidation. In methanol with an acid catalyst (HCl or H₂SO₄), the anomeric –OH of the cyclic hemiacetal is replaced by –OCH₃, making a methyl glucoside (an acetal).\n\nMechanism:\n\nThe acid protonates the anomeric –OH.\nWater leaves, which gives a planar, resonance-stabilized oxocarbenium ion at C1.\nMethanol can attack that planar carbon from either face.\nLosing H⁺ gives the methyl glucoside.\n\nWhy both products form. The carbon being attacked is planar, so methanol adds to either face with no stereochemical memory of the starting anomer. The product is an anomeric mixture:\n\nI: –OCH₃ in the same position that –OH held in β-D-glucose, which is methyl β-D-glucopyranoside.\nII: –OCH₃ on the opposite face, which is methyl α-D-glucopyranoside.\n\nUnder these acidic, reversible conditions the α anomer usually predominates (the anomeric effect), but the β anomer also forms, so both structures are products. The rest of the ring, with its OH groups on C2 to C4 and the CH₂OH group, is unchanged in both structures.\n\nI'm reading the ring substituents from small drawings, so confirm that I and II differ only at the anomeric carbon. If they do, the answer is C."
         }
       ]
     },
